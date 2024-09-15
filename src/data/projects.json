@@ -2,7 +2,8 @@
     {
       "title": "This Website",
       "imageSrc": "projects/project.png",
-      "description": "I made this website with React, following a tutorial.",
+      "description": "Ho creato questo sito usando Node, React, CSS e JavaScript.",
+      "descriptionEng": "I made this website with React, following a tutorial.",
       "skills": ["React", "Node", "JavaScript", "CSS"],
       "demo": "no",
       "source": "111"
@@ -10,15 +11,17 @@
     {
       "title": "JBubbleBobble",
       "imageSrc": "projects/project.png",
-      "description": "I made this game for a University project using Java, following MVC pattern.",
+      "description": "Ho sviluppato questo gioco per un esame universitario, seguendo il modello MVC con Java.",
+      "descriptionEng": "I made this game for a University project using Java, following MVC pattern.",
       "skills": ["Java", "MVC Pattern"],
       "demo": "111",
       "source": "111"
     },
     {
-      "title": "Tutela - Car maintenance",
+      "title": "Tutela - Vehicle maintenance",
       "imageSrc": "projects/tutela.png",
-      "description": "I'm developing an android app to manage car maintenance.",
+      "description": "Sto sviluppando un'applicazione per gestire la manutenzione dei veicoli.",
+      "descriptionEng": "I'm developing an android app to manage vehicle maintenance.",
       "skills": ["Java"],
       "demo": "no",
       "source": "no"
