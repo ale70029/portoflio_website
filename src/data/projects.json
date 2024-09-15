@@ -1,6 +1,6 @@
 [
     {
-      "title": "This Website",
+      "title": "Portfolio web",
       "imageSrc": "projects/project.png",
       "description": "Ho creato questo sito usando Node, React, CSS e JavaScript.",
       "descriptionEng": "I made this website with React, following a tutorial.",

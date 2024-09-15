@@ -30,7 +30,7 @@ export const About = () => {
                     <img src={getImageUrl("about/dataIcon.png")} alt="Ui icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Data Analyst</h3>
-                        <p>Posso creare report raccogliendo dati ed elaborandoli con Excel,PowerBI o Looker Studio.</p>
+                        <p>Posso creare report raccogliendo dati ed elaborandoli con SQL, Excel, PowerBI e Looker Studio.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
