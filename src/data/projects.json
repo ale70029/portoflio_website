@@ -1,0 +1,27 @@
+[
+    {
+      "title": "This Website",
+      "imageSrc": "projects/project.png",
+      "description": "I made this website with React, following a tutorial.",
+      "skills": ["React", "Node", "JavaScript", "CSS"],
+      "demo": "no",
+      "source": "111"
+    },
+    {
+      "title": "JBubbleBobble",
+      "imageSrc": "projects/project.png",
+      "description": "I made this game for a University project using Java, following MVC pattern.",
+      "skills": ["Java", "MVC Pattern"],
+      "demo": "111",
+      "source": "111"
+    },
+    {
+      "title": "Tutela - Car maintenance",
+      "imageSrc": "projects/tutela.png",
+      "description": "I'm developing an android app to manage car maintenance.",
+      "skills": ["Java"],
+      "demo": "no",
+      "source": "no"
+    }
+  ]
+  
