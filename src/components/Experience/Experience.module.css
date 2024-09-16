@@ -125,7 +125,7 @@
     .content {
         flex-direction: column;
         align-items: center;
-        gap: 34px;
+        gap: 1px;
     }
 
     .skills {
@@ -135,24 +135,32 @@
         gap: 1px;
     }
 
+    .skill p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: var(--font-roboto);
+    }
+
     .skillImageContainer {
         background-color: var(--color-secondary);
         border-radius: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        height: 80px;
-        width: 80px;
+        height: 75px;
+        width: 75px;
     }
 
     .skillsContainer{
         background-color: rgba(12,12,12,0.6);
         border-radius: 15px;
-        width: 100%;
+        width: 115%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .skillImageContainer img {
-        width: 65px;
+        width: 60px;
     }
     
     .history {
