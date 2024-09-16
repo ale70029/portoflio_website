@@ -10,7 +10,9 @@ export const text = {
         navProjects: "Progetti",
         navContact: "Contatti",
 
-        contactMessage: "Mettiti in contatto con me!"
+        contactMessage: "Mettiti in contatto con me!",
+
+        onGoing: "In corso"
 
     },
 
@@ -25,7 +27,9 @@ export const text = {
         navProjects: "Projects",
         navContact: "Contact",
     
-        contactMessage: "Get in touch with me!"
+        contactMessage: "Get in touch with me!",
+
+        onGoing: "Ongoing"
     },
 
     es: {
@@ -39,7 +43,9 @@ export const text = {
         navProjects: "Proyectos",
         navContact: "Contactos",
     
-        contactMessage: "Ponte en contacto conmigo!"
+        contactMessage: "Ponte en contacto conmigo!",
+
+        onGoing: "En curso"
     }
 };
 

@@ -32,7 +32,11 @@ export const Experience = () => {
                             <img src={getImageUrl(historyItem.imageSrc)} alt={historyItem.organisation} />
                             <div className={styles.historyItemDetails}>
                                 <h3>{`${historyItem.role[lang]}, ${historyItem.organisation}`}</h3>
-                                <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                                <p>{historyItem.startDate + 
+                                    " - " + 
+                                    (historyItem.endDate === "" ? text[lang].onGoing : historyItem.endDate)}
+                                </p>
+
                                 <ul>{historyItem.experiences.map((experience,id) => {
                                     return <li key={id}>{experience}</li>
                                     })}
