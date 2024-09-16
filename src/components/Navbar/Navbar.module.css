@@ -44,6 +44,11 @@
     list-style: none;
 }
 
+.active {
+    border: 5px solid #ffffff; /* Cerchio attorno all'immagine selezionata */
+    border-radius: 100%;
+}
+
 .menuBtn{
     display: none;
 }

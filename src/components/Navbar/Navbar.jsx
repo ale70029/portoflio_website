@@ -23,13 +23,16 @@ export const Navbar = () =>{
             onClick={() => setFlagOpen(false)}
             >
                 <li>
-                    <img src={getImageUrl("nav/it.png")} alt="it" onClick={() => setLang("it")}/>
+                    <img src={getImageUrl("nav/it.png")} alt="it" onClick={() => setLang("it")}
+                    className={lang == 'it' ? styles.active : ''}/>
                 </li>
                 <li>
-                    <img src={getImageUrl("nav/en.png")} alt="en" onClick={() => setLang("en")}/>
+                    <img src={getImageUrl("nav/en.png")} alt="en" onClick={() => setLang("en")}
+                    className={lang == 'en' ? styles.active : ''}/>
                 </li>
                 <li>
-                    <img src={getImageUrl("nav/es.png")} alt="es" onClick={() => setLang("es")}/>
+                    <img src={getImageUrl("nav/es.png")} alt="es" onClick={() => setLang("es")}
+                    className={lang == 'es' ? styles.active : ''}/>
                 </li>
             </ul>
         </div>
