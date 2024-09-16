@@ -1,16 +1,18 @@
-import React from 'react'
+import React, {useState} from "react";
 import { getImageUrl } from '../../utils';
 import styles from "./Hero.module.css";
+import {text,language} from "../../data/translation"
+
 
 export const Hero = () => {
-    return( 
+    return(
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Ciao! Sono Alessandro.</h1>
-                <p className={styles.description}>Sto cercando lavoro come sviluppatore.</p>
+                <h1 className={styles.title}>{text[language].heroGreeting}</h1>
+                <p className={styles.description}>{text[language].heroText}</p>
                 <a className={styles.contactBtn} 
                    href="#contact" >
-                    Mettiamoci in contatto!
+                    {text[language].heroContact}
                 </a>
             </div>
             <img src={getImageUrl("hero/heroImage.png")} 
@@ -21,4 +23,4 @@ export const Hero = () => {
             <div className={styles.bottomBlur}/>
         </section>
     );
-}
+};

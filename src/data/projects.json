@@ -1,27 +1,54 @@
 [
     {
-      "title": "Portfolio web",
+      "title": 
+        {
+          "it":"Portfolio Web",
+          "en":"Web Portfolio",
+          "es":"Portafolio web"
+        },
+      "description":
+        {
+          "it":"Ho creato questo sito usando Node, React, CSS e JavaScript.",
+          "en":"I made this website with React, following a tutorial.",
+          "es":"He creado esta página web utilizando Node, React, CSS y JavaScript."
+        },
       "imageSrc": "projects/project.png",
-      "description": "Ho creato questo sito usando Node, React, CSS e JavaScript.",
-      "descriptionEng": "I made this website with React, following a tutorial.",
       "skills": ["React", "Node", "JavaScript", "CSS"],
       "demo": "no",
       "source": "111"
     },
     {
-      "title": "JBubbleBobble",
+      "title": 
+        {
+          "it":"JBubbleBobble",
+          "en":"JBubbleBobble",
+          "es":"JBubbleBobble"
+        },
+      "description":
+        {
+          "it": "Ho sviluppato questo gioco per un esame universitario, seguendo il modello MVC con Java.",
+          "en": "I made this game for a University project using Java, following MVC pattern.",
+          "es": "Desarrollé este juego para un examen universitario, siguiendo el modelo MVC con Java."
+        }, 
       "imageSrc": "projects/project.png",
-      "description": "Ho sviluppato questo gioco per un esame universitario, seguendo il modello MVC con Java.",
-      "descriptionEng": "I made this game for a University project using Java, following MVC pattern.",
       "skills": ["Java", "MVC Pattern"],
       "demo": "111",
       "source": "111"
     },
     {
-      "title": "Tutela - Vehicle maintenance",
+      "title": 
+        {
+          "it":"Tutela - Manutenzione veicoli",
+          "en":"Tutela - Vehicle maintenance",
+          "es":"Tutela - Mantenimiento de vehículos"
+        },
+      "description":
+        {
+          "it":"Sto sviluppando un'applicazione per gestire la manutenzione dei veicoli.",
+          "en":"I'm developing an android app to manage vehicle maintenance.",
+          "es":"Estoy desarrollando una aplicación para gestionar el mantenimiento de vehículos."
+        }, 
       "imageSrc": "projects/tutela.png",
-      "description": "Sto sviluppando un'applicazione per gestire la manutenzione dei veicoli.",
-      "descriptionEng": "I'm developing an android app to manage vehicle maintenance.",
       "skills": ["Java"],
       "demo": "no",
       "source": "no"

@@ -1,0 +1,65 @@
+[
+    {
+        "title":
+            {
+                "it": "Sviluppatore Frontend",
+                "en": "Frontend Developer",
+                "es": "Desarrollador Frontend"
+            },
+        "description":
+            {
+                "it": "Posso sviluppare pagine web come questa, usando HTML, CSS, JavaScript e React.",
+                "en": "I can develop web pages like this, using HTML, CSS, JavaScript and React. ",
+                "es": "Puedo desarrollar páginas web como esta utilizando HTML, CSS, JavaScript y React."
+            },
+        "icon": "about/cursorIcon.png"
+    },
+
+    {
+        "title":
+            {
+                "it": "Sviluppatore Backend",
+                "en": "Backend Developer",
+                "es": "Desarrollador Backend"
+            },
+        "description":
+            {
+                "it": "Posso sviluppare applicazioni con Java, Python e C#.",
+                "en": "I can develop applications using Java, Python and C#. ",
+                "es": "Puedo desarrollar aplicaciones utilizando Java, Python y C#."
+            },
+        "icon": "about/serverIcon.png"
+    },
+
+    {
+        "title":
+            {
+                "it": "Analista di dati",
+                "en": "Data Analyst",
+                "es": "Analista de datos"
+            },
+        "description":
+            {
+                "it": "Posso creare report raccogliendo dati ed elaborandoli con SQL, Excel, PowerBI e Looker Studio.",
+                "en": "I can create reports by collecting and analyzing data using SQL, Excel, PowerBI, and Looker Studio.",
+                "es": " Puedo crear informes recopilando y analizando datos utilizando SQL, Excel, PowerBI y Looker Studio."
+            },
+        "icon": "about/dataIcon.png"
+    },
+
+    {
+        "title":
+            {
+                "it": "Grafico",
+                "en": "Graphic Designer",
+                "es": "Diseñador gráfico"
+            },
+        "description":
+            {
+                "it": "Posso progettare grafiche e crearle con Photoshop.",
+                "en": "I can design graphics and create them with Photoshop.",
+                "es": "Puedo diseñar diseños gráficos y crearlos con Photoshop."
+            },
+        "icon": "about/uiIcon.png"
+    }
+]

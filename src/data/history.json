@@ -1,22 +1,32 @@
 [
     {
-      "role": "Informatica",
+      "role":
+        {
+          "it":"Informatica",
+          "en":"Computer Science",
+          "es":"Informática"
+        },
       "organisation": "Sapienza",
-      "startDate": "Settembre 2023",
-      "endDate": "In corso",
+      "startDate": "09/2023",
+      "endDate": "2026 ?",
       "experiences": [
         "Java",
         "Python",
-        "Pattern MVC",
-        "Progettazione Diagrammi UML"
+        "MVC Pattern",
+        "UML"
         ],
       "imageSrc": "history/sapienza.png"
     },
     {
-      "role": "Fullstack Developer",
+      "role":
+        {
+          "it":"Sviluppatore Fullstack",
+          "en":"Fullstack Developer",
+          "es":"Desarrolador Fullstack"
+        }, 
       "organisation": "Enaip",
-      "startDate": "Luglio 2024",
-      "endDate": "Ottobre 2024",
+      "startDate": "7/2024",
+      "endDate": "10/2024",
       "experiences": [
         "HTML",
         "CSS",
@@ -28,10 +38,15 @@
       "imageSrc": "history/enaip.png"
     },
     {
-      "role": "Data Analyst",
+      "role":
+        {
+          "it":"Analista di dati",
+          "en":"Data Analyst",
+          "es":"Analista de datos"
+        },  
       "organisation": "Epicode",
-      "startDate": "Febbraio 2023",
-      "endDate": "Settembre 2023",
+      "startDate": "02/2023",
+      "endDate": "09/2023",
       "experiences": [
         "Excel",
         "Pivot",
