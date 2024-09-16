@@ -1,7 +1,10 @@
 export const text = {
     it:{
         heroGreeting: "Ciao, mi chiamo Alessandro.",
-        heroText: "Sto cercando lavoro come sviluppatore.",
+        heroText: `Sono un ragazzo di ${new Date().getFullYear() - 1994} anni, vivo a Roma e parlo fluentemente Italiano, Inglese e 
+                   Spagnolo. Sto cercando lavoro come sviluppatore,
+                   e nel mentre seguo un corso di laurea in Informatica 
+                   in modalità teledidattica presso l'università 'La Sapienza' di Roma.`,
         heroContact: "Mettiamoci in contatto!",
 
         navHome: "Portfolio",
@@ -18,7 +21,10 @@ export const text = {
 
     en:{
         heroGreeting: "Hi, I'm Alessandro.",
-        heroText: "I'm looking for a job as a developer.",
+        heroText: `I am a ${new Date().getFullYear() - 1994}-year-old guy, living in Rome.
+                    I speak Italian, English, and Spanish fluently. I am looking for a job as 
+                    a developer while pursuing a distance learning 
+                    degree in Computer Science at 'La Sapienza' University in Rome.`,
         heroContact: "Get in touch!",
     
         navHome: "Portfolio",
@@ -34,7 +40,10 @@ export const text = {
 
     es: {
         heroGreeting: "Hola, me llamo Alessandro.",
-        heroText: "Estoy buscando trabajo como desarrollador.",
+        heroText: `Soy un chico de ${new Date().getFullYear() - 1994} años, 
+                    vivo en Roma y hablo fluidamente Italiano, Inglés y Español. 
+                    Estoy buscando trabajo como desarrollador mientras sigo un curso 
+                    de grado en Informática a distancia en la Universidad 'La Sapienza' de Roma.`,
         heroContact: "Pongámonos en contacto!",
     
         navHome: "Portafolio",
@@ -48,4 +57,5 @@ export const text = {
         onGoing: "En curso"
     }
 };
+
 
