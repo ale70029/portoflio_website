@@ -70,7 +70,8 @@
 
 @media screen and (max-width:830px) {
     .container {
-        background-color: transparent;
+        background-color: rgba(12,12,12,0.6);
+        border-radius: 15px;
         padding-left: 0;
         padding-right: 0;
     }
