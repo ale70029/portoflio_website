@@ -14,13 +14,17 @@ export const Navbar = () =>{
         <div className={styles.langMenu}>
             <img 
                 className={styles.langBtn}
-                src={getImageUrl(`nav/${lang}.png`)}
+                src={ 
+                    flagOpen
+                    ? getImageUrl("nav/closeIcon.png")
+                    :getImageUrl(`nav/${lang}.png`)
+                }
                 alt="menu-button"
-                onClick={() => setFlagOpen(!flagOpen)}
+                onClick={() => (setFlagOpen(!flagOpen),setMenuOpen(false))}
             />
             <ul
             className={`${styles.langItems} ${flagOpen && styles.langOpen}`}
-            onClick={() => setFlagOpen(false)}
+            onClick={() => (setFlagOpen(false))}
             >
                 <li>
                     <img src={getImageUrl("nav/it.png")} alt="it" onClick={() => setLang("it")}
@@ -46,11 +50,11 @@ export const Navbar = () =>{
                     : getImageUrl("nav/menuIcon.png")
                 }    
                 alt="menu-button"
-                onClick={() => setMenuOpen(!menuOpen)}
+                onClick={() => (setMenuOpen(!menuOpen),setFlagOpen(false))}
             />
             <ul
-                className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-                onClick={() => setMenuOpen(false)}
+                className={`${styles.menuItems} ${menuOpen &&!flagOpen && styles.menuOpen}`}
+                onClick={() => (setMenuOpen(false))}
             >
                 <li>
                     <a href="#about">{text[lang].navAbout}</a>
