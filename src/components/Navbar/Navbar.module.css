@@ -45,8 +45,10 @@
 }
 
 .active {
+    margin-top: -5px;
     border: 5px solid #ffffff; /* Cerchio attorno all'immagine selezionata */
     border-radius: 100%;
+    
 }
 
 .menuBtn{
