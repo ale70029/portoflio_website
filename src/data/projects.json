@@ -12,10 +12,10 @@
           "en":"I made this website with React, following a tutorial.",
           "es":"He creado esta página web utilizando Node, React, CSS y JavaScript."
         },
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/portfolio.png",
       "skills": ["React", "Node", "JavaScript", "CSS"],
       "demo": "no",
-      "source": "111"
+      "source": "https://github.com/ale70029/portoflio_website"
     },
     {
       "title": 
@@ -30,10 +30,10 @@
           "en": "I made this game for a University project using Java, following MVC pattern.",
           "es": "Desarrollé este juego para un examen universitario, siguiendo el modelo MVC con Java."
         }, 
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/JBubbleBobble.png",
       "skills": ["Java", "MVC Pattern"],
-      "demo": "111",
-      "source": "111"
+      "demo": "no",
+      "source": "https://github.com/ale70029/JBubbleBobble"
     },
     {
       "title": 
