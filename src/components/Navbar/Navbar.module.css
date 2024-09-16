@@ -17,11 +17,12 @@
     text-decoration: none;
     color: var(--color-text);
 }
-.menu1 {
+.langMenu {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.menu2 {
+.sectionsMenu {
     display: flex;
 }
 
@@ -37,8 +38,17 @@
     font-size: 25px;
     text-decoration: none;
 }
+.langItems {
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
 
 .menuBtn{
+    display: none;
+}
+
+.langBtn{
     display: none;
 }
 
@@ -50,7 +60,7 @@
         align-items: flex-start;
     }
 
-    .menu1 {
+    .langMenu {
         position: absolute;
         right: 0;
         margin-right: 25%;
@@ -59,7 +69,7 @@
         gap: 11px;
         z-index: 3;
     }
-    .menu2 {
+    .sectionsMenu {
         position: absolute;
         right: 0;
         margin-right: 10%;
@@ -71,6 +81,11 @@
 
 
     .menuBtn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .langBtn {
         display: block;
         cursor: pointer;
     }
@@ -90,9 +105,29 @@
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
-   
+
+    .langItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25,55,109); /* if linear gradient is not supported */
+        background: linear-gradient(
+            0deg,
+          rgba(25,55,109,0.2) 0%,
+          rgba(25,55,109,1) 100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
 
     .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+
+    .langOpen {
         display: flex;
         z-index: 1;
     }
