@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import { getImageUrl } from '../../utils';
 import styles from "./Hero.module.css";
 import {text} from "../../data/translation"
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 
 export const Hero = () => {

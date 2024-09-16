@@ -2,7 +2,7 @@ import React, {useState,useContext } from "react";
 import styles from "./Navbar.module.css";
 import {getImageUrl} from "../../utils";
 import {text} from "../../data/translation"
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 export const Navbar = () =>{
     const [menuOpen,setMenuOpen] = useState(false);

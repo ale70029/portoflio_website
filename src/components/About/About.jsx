@@ -3,7 +3,7 @@ import {getImageUrl} from "../../utils"
 import styles from "./About.module.css"
 import about from "../../data/about.json"
 import { text } from '../../data/translation'
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 export const About = () => {
     const { lang, setLang } = useContext(LangContext);

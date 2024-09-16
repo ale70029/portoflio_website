@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import {getImageUrl} from "../../utils"
 import {text} from "../../data/translation"
 import styles from "./Contact.module.css"
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 
 export const Contact = () => {

@@ -4,7 +4,7 @@ import history from "../../data/history.json"
 import { getImageUrl } from '../../utils'
 import {text} from "../../data/translation"
 import styles from "./Experience.module.css"
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 
 export const Experience = () => {

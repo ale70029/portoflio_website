@@ -3,7 +3,7 @@ import projects from "../../data/projects.json"
 import {text} from "../../data/translation"
 import { ProjectCard } from './ProjectCard'
 import styles from "./Projects.module.css"
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 
 

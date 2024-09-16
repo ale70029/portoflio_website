@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import { getImageUrl } from '../../utils'
 import styles from "./ProjectCard.module.css"
-import LangContext from "../../language";
+import LangContext from "../../LanguageContext";
 
 export const ProjectCard = ({project}) => {
     const { lang, setLang } = useContext(LangContext);
