@@ -5,22 +5,23 @@ import { Hero } from './components/Hero/Hero'
 import { Navbar } from './components/Navbar/Navbar'
 import { Projects } from './components/Projects/Projects'
 import { Contact } from "./components/Contact/Contact"
+import { LangProvider } from './language';
 
 
 
-function App() {
+function App () {
+  
   return (
-   
+    <LangProvider>
       <div className={styles.App}>
-   
         <Navbar />
         <Hero />
         <About />
         <Experience />
         <Projects />
         <Contact />
-
       </div>
+    </LangProvider>
 
   )
 }

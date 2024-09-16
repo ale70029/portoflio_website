@@ -1,34 +1,34 @@
-import React, {useState} from "react";
+import React, {useState,useContext } from "react";
 import styles from "./Navbar.module.css";
 import {getImageUrl} from "../../utils";
-import {text,language,getFlag,setLanguage} from "../../data/translation"
+import {text} from "../../data/translation"
+import LangContext from "../../language";
 
 export const Navbar = () =>{
     const [menuOpen,setMenuOpen] = useState(false);
     const [flagOpen,setflagOpen] = useState(false);
-    /*const [language, setLanguage] = useState("it");*/
+    const { lang, setLang } = useContext(LangContext);
     return (<nav className={styles.navbar}>
-    <a href="/" className={styles.title}>{text[language].navHome}</a>
+    <a href="/" className={styles.title}>{text[lang].navHome}</a>
     
     <div className={styles.menu1}>
         <img 
             className={styles.menuBtn}
-            src={getImageUrl(getFlag({language}))}
+            src={getImageUrl(`nav/it.png`)}
             alt="menu-button"
-            onClick={() => alert(language)}
         />
         <ul
            className={`${styles.menuItems} ${flagOpen && styles.menuOpen}`}
            onClick={() => setflagOpen(false)}
         >
             <li>
-                <img src={getImageUrl("nav/it.png")} alt="it" onClick={() => setLanguage("it")}/>
+                <img src={getImageUrl("nav/it.png")} alt="it" onClick={() => setLang("it")}/>
             </li>
             <li>
-                <img src={getImageUrl("nav/en.png")} alt="en" onClick={() => setLanguage("en")}/>
+                <img src={getImageUrl("nav/en.png")} alt="en" onClick={() => setLang("en")}/>
             </li>
             <li>
-                <img src={getImageUrl("nav/es.png")} alt="es" onClick={() => setLanguage("es")}/>
+                <img src={getImageUrl("nav/es.png")} alt="es" onClick={() => setLang("es")}/>
             </li>
         </ul>
     </div>
@@ -49,16 +49,16 @@ export const Navbar = () =>{
             onClick={() => setMenuOpen(false)}
         >
             <li>
-                <a href="#about">{text[language].navAbout}</a>
+                <a href="#about">{text[lang].navAbout}</a>
             </li>
             <li>
-                <a href="#experience">{text[language].navExperience}</a>
+                <a href="#experience">{text[lang].navExperience}</a>
             </li>
             <li>
-                <a href="#projects">{text[language].navProjects}</a>
+                <a href="#projects">{text[lang].navProjects}</a>
             </li>
             <li>
-                <a href="#contact">{text[language].navContact}</a>
+                <a href="#contact">{text[lang].navContact}</a>
             </li>
         </ul>
     </div>

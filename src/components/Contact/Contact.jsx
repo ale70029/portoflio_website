@@ -1,15 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import {getImageUrl} from "../../utils"
-import {text,language} from "../../data/translation"
+import {text} from "../../data/translation"
 import styles from "./Contact.module.css"
+import LangContext from "../../language";
 
 
 export const Contact = () => {
+    const { lang, setLang } = useContext(LangContext);
   return (
     <footer id='contact' className={styles.container}>
         <div className={styles.text}>
-            <h2>{text[language].navContact}</h2>
-            <p>{text[language].contactMessage}</p>
+            <h2>{text[lang].navContact}</h2>
+            <p>{text[lang].contactMessage}</p>
         </div>
         <ul className={styles.links}>
             <li className={styles.link}>

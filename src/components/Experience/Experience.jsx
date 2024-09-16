@@ -1,15 +1,17 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import skills from "../../data/skills.json"
 import history from "../../data/history.json"
 import { getImageUrl } from '../../utils'
-import {text,language} from "../../data/translation"
+import {text} from "../../data/translation"
 import styles from "./Experience.module.css"
+import LangContext from "../../language";
 
 
 export const Experience = () => {
+    const { lang, setLang } = useContext(LangContext);
   return (
     <section id='experience' className={styles.container}>
-        <h2 className={styles.title}>{text[language].navExperience}</h2>
+        <h2 className={styles.title}>{text[lang].navExperience}</h2>
         <div className={styles.content}>
             <div className={styles.skillsContainer}>
                 <div className={styles.skills}>
@@ -29,7 +31,7 @@ export const Experience = () => {
                         return <li key={id} className={styles.historyItem}>
                             <img src={getImageUrl(historyItem.imageSrc)} alt={historyItem.organisation} />
                             <div className={styles.historyItemDetails}>
-                                <h3>{`${historyItem.role[language]}, ${historyItem.organisation}`}</h3>
+                                <h3>{`${historyItem.role[lang]}, ${historyItem.organisation}`}</h3>
                                 <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                                 <ul>{historyItem.experiences.map((experience,id) => {
                                     return <li key={id}>{experience}</li>
