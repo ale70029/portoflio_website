@@ -141,8 +141,18 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .skillsContainer{
+        background-color: rgba(12,12,12,0.6);
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .skillImageContainer img {
+        width: 65px;
     }
     
     .history {
