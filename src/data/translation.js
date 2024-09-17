@@ -42,8 +42,8 @@ export const text = {
         heroGreeting: "Hola, me llamo Alessandro.",
         heroText: `Soy un chico de ${new Date().getFullYear() - 1994} años, 
                     vivo en Roma y hablo fluidamente Italiano, Inglés y Español. 
-                    Estoy buscando trabajo como desarrollador mientras sigo un curso 
-                    de grado en Informática a distancia en la Universidad 'La Sapienza' de Roma.`,
+                    Estoy buscando trabajo como desarrollador mientras curso 
+                    un grado en Informática online en la Universidad 'La Sapienza' de Roma.`,
         heroContact: "Pongámonos en contacto!",
     
         navHome: "Portafolio",
