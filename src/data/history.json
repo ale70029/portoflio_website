@@ -58,6 +58,22 @@
         "Google Looker Studio"
       ],
       "imageSrc": "history/epicode.png"
+    },
+    {
+      "role":
+        {
+          "it":"Tecnico Grafico Pubblicitario",
+          "en":"Graphic Design and Advertising Technician",
+          "es":"Técnico en Diseño Gráfico y Publicidad"
+        },
+      "organisation": "Istituto Superiore Rosa Luxemburg",
+      "startDate": "09/2008",
+      "endDate": "07/2013",
+      "experiences": [
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+        ],
+      "imageSrc": "history/minIstr.png"
     }
   ]
   
