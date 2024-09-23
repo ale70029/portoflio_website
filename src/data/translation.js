@@ -1,10 +1,9 @@
 export const text = {
     it:{
         heroGreeting: "Ciao, mi chiamo Alessandro.",
-        heroText: `Sono un ragazzo di ${new Date().getFullYear() - 1994} anni, vivo a Roma e parlo fluentemente Italiano, Inglese e 
-                   Spagnolo. Sto cercando lavoro come sviluppatore,
-                   e nel mentre seguo un corso di laurea in Informatica 
-                   in modalità teledidattica presso l'università 'La Sapienza' di Roma.`,
+        heroText: `Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma e parlo fluentemente Italiano, Inglese e 
+                   Spagnolo. Studio Informatica 
+                   in modalità teledidattica presso l'università 'La Sapienza' di Roma, e sto cercando lavoro come sviluppatore!`,
         heroContact: "Mettiamoci in contatto!",
 
         navHome: "Portfolio",
