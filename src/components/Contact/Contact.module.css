@@ -31,6 +31,13 @@
     letter-spacing: 2px;
 }
 
+.desktopMail {
+    display: flex;
+}
+
+.mobileMail{
+    display: none;
+}
 .links {
     display: flex;
     flex-direction: column;
@@ -100,14 +107,15 @@
         letter-spacing: 1.5px;
     }
 
-    .link h4 {
-        color: var(--color-text);
-        text-decoration: none;
-        font-size: 17px;
-        font-weight: 400;
-        
-    }
 
+
+    
+    .mobileMail {
+        display: flex;
+    }
+    .desktopMail {
+        display: none;
+    }
 
     
 }
