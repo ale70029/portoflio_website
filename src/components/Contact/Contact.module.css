@@ -51,6 +51,14 @@
     letter-spacing: 1.5px;
 }
 
+.link h4 {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
 @media screen and (max-width:830px) {
     .container {
         flex-direction: column;
@@ -80,5 +88,12 @@
         letter-spacing: 1.5px;
     }
 
+    .link h2 {
+        color: var(--color-text);
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+    }
     
 }
