@@ -14,18 +14,28 @@ export const Contact = () => {
             <p>{text[lang].contactMessage}</p>
         </div>
         <ul className={styles.links}>
-            <li className={styles.link}>
-                <img src={getImageUrl("contact/emailIcon.png")} alt="Email" />
-                <a href="mailto:ale70029@gmail.com">alessandro.ciccarone1994@gmail.com</a>
-            </li>
-            <li className={styles.link}>
-                <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn" />
-                <a href="https://www.linkedin.com/in/alessandro-ciccarone/">LinkedIn</a>
-            </li>
-            <li className={styles.link}>
-                <img src={getImageUrl("contact/githubIcon.png")} alt="Github" />
-                <a href="https://github.com/ale70029">GitHub</a>
-            </li>
+
+            <a href="mailto:alessandro.ciccarone1994@gmail.com">
+                <li className={styles.link}>
+                    <img src={getImageUrl("contact/emailIcon.png")} alt="Email" />
+                    <h2>Email</h2>
+                </li>
+            </a>
+
+            <a href="https://www.linkedin.com/in/alessandro-ciccarone/">
+                <li className={styles.link}>
+                    <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn" />
+                    <h2>LinkedIn</h2>
+                </li>
+            </a>
+
+            <a href="https://github.com/ale70029">
+                <li className={styles.link}>
+                    <img src={getImageUrl("contact/githubIcon.png")} alt="Github" />
+                    <h2> GitHub</h2>
+                </li>
+            </a>
+            
         </ul>
     </footer>
   )
