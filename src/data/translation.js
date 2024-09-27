@@ -3,7 +3,7 @@ export const text = {
         heroGreeting: "Ciao, mi chiamo ",
         heroText: `Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma e parlo fluentemente Italiano, Inglese e 
                    Spagnolo. Studio Informatica 
-                   in modalità teledidattica presso l'università 'La Sapienza' di Roma, e sto cercando lavoro come sviluppatore!`,
+                   in modalità teledidattica presso l'Università 'La Sapienza' di Roma, e sto cercando lavoro come sviluppatore!`,
         heroContact: "Mettiamoci in contatto!",
 
         navHome: "Portfolio",
