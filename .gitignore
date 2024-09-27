@@ -26,4 +26,4 @@ dist-ssr
 
 # Old version
 
-src/components/VERSION-1.0/*
+src/components/VERSION-1.0/
