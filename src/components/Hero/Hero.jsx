@@ -8,11 +8,11 @@ import LangContext from "../../LanguageContext";
 export const Hero = () => {
     const { lang, setLang } = useContext(LangContext);
     return(
-        <div id="home" className={styles.container}>
- <div className={styles.imgContainer}>
-                <img src={getImageUrl("hero/heroImage.png")} 
-                        alt="Hero-image" 
-                    />
+        <div  className={styles.container}>
+            <div id="home" className={styles.imgContainer}>
+                            <img src={getImageUrl("hero/heroImage.png")} 
+                                    alt="Hero-image" 
+                                />
             </div>
             <div className={styles.hero}>
                 <h1 className={styles.title}>{text[lang].heroGreeting}
