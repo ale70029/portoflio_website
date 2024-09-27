@@ -8,21 +8,25 @@ import LangContext from "../../LanguageContext";
 export const Hero = () => {
     const { lang, setLang } = useContext(LangContext);
     return(
-        <section className={styles.container}>
-            <div className={styles.content}>
-                <h1 className={styles.title}>{text[lang].heroGreeting}</h1>
+        <div id="home" className={styles.container}>
+ <div className={styles.imgContainer}>
+                <img src={getImageUrl("hero/heroImage.png")} 
+                        alt="Hero-image" 
+                    />
+            </div>
+            <div className={styles.hero}>
+                <h1 className={styles.title}>{text[lang].heroGreeting}
+                                             <span className={styles.heroName}>{text.heroName}</span>
+                </h1>
                 <p className={styles.description}>{text[lang].heroText}</p>
                 <a className={styles.contactBtn} 
                    href="#contact" >
                     {text[lang].heroContact}
                 </a>
             </div>
-            <img src={getImageUrl("hero/heroImage.png")} 
-                alt="Hero-image" 
-                className={styles.heroImg}
-            />
-            <div className={styles.topBlur}/>
-            <div className={styles.bottomBlur}/>
-        </section>
+
+           
+            
+        </div>
     );
 };

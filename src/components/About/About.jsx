@@ -8,13 +8,9 @@ import LangContext from "../../LanguageContext";
 export const About = () => {
     const { lang, setLang } = useContext(LangContext);
   return (
-    <section className={styles.container} id='about'>
-        <h2 className={styles.title}>{text[lang].About}</h2>
+    <div className={styles.container} id='about'>
+        <h2 className={styles.title}>{text[lang].navAbout}</h2>
         <div className={styles.content}>
-            <img src={getImageUrl("about/aboutImage.png")} 
-                alt="About image" 
-                className={styles.aboutImage}
-            />
             <ul className={styles.aboutItems}>
                 {about.map((about,id) =>{
                     return <li key={id} className={styles.aboutItem}>
@@ -27,6 +23,6 @@ export const About = () => {
                     })}   
             </ul>
         </div>
-    </section>
+    </div>
   )
 }

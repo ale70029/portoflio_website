@@ -1,10 +1,12 @@
 import styles from './App.module.css'
-import { About } from './components/About2/About'
-import { Experience } from './components/Experience2/Experience'
-import { Hero } from './components/Hero2/Hero'
-import { Navbar } from './components/Navbar2/Navbar'
-import { Projects } from './components/Projects2/Projects'
-import { Contact } from "./components/Contact2/Contact"
+
+import { About } from './components/About/About'
+import { Experience } from './components/Experience/Experience'
+import { Hero } from './components/Hero/Hero'
+import { Navbar } from './components/Navbar/Navbar'
+import { Projects } from './components/Projects/Projects'
+import { Contact } from "./components/Contact/Contact"
+
 import { LangProvider } from "./LanguageContext"
 
 
@@ -14,7 +16,7 @@ function App () {
   return (
     <LangProvider>
       <div className={styles.App}>
-      <Navbar />
+        <Navbar />
         <Hero />
         <About />
         <Experience />

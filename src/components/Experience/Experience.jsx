@@ -12,7 +12,9 @@ export const Experience = () => {
   return (
     <section id='experience' className={styles.container}>
         <h2 className={styles.title}>{text[lang].navExperience}</h2>
+
         <div className={styles.content}>
+
             <div className={styles.skillsContainer}>
                 <div className={styles.skills}>
                     {skills.map((skill,id) =>{
@@ -25,6 +27,7 @@ export const Experience = () => {
                     })}
                 </div>
             </div>
+            
             <ul className={styles.history}>
                 {
                     history.map((historyItem,id) => {
