@@ -1,0 +1,196 @@
+@import "../../vars.css";
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    z-index: 1000;
+    background: var(--bg-secondary);
+    padding: 10px;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  
+.logoContainer {
+    flex: 0 0 15%; 
+    
+}
+.logoContainer img{
+    max-width: 90px;
+}
+
+
+/* SECTIONS */
+.menuButton {
+    display: none;
+}
+
+.sectionContainer{
+    flex: 0 0 50%; 
+    align-items: center;
+    
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 47px;
+    
+    
+}
+
+.links li a{
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 20px;
+}
+
+.links li a:hover{
+    text-decoration: none;
+    color: var(--glow);
+    font-size: 20px;
+}
+
+
+
+
+/* LANGUAGE */
+
+.langContainer{
+    flex: 0 0 25%; 
+    justify-content: center;
+    align-items:center ;
+}
+
+
+.languages{
+    background: var(--bg-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 5px;
+    box-shadow: 0 0 5px var(--glow);
+    border: 2px solid var(--glow);
+
+}
+
+.languages.open {
+    display: flex;  
+}
+
+.languages li {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.languages li:hover{
+    color: var(--glow);
+}
+
+.languages img {
+    width: 25px;
+}
+.languageMenu{
+    display: none;
+}
+.languageMenu.open {
+    display: flex;
+}
+
+.lang {
+ 
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px var(--glow);
+    border: 2px solid var(--glow);
+    font-size: 15px;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.lang:hover{
+    color: var(--glow);
+}
+
+.lang.open {
+    display: none;
+}
+.lang img {
+    width: 25px;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 830px){
+    .navbar {
+        flex-direction: row;
+        height: 80px;
+    }
+
+    .logoContainer{
+        flex: 0 0 10%; 
+    }
+    .logoContainer img {
+        width: 65px;
+    }
+    
+   
+    .links {
+        flex: 0 0 50%; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        margin-left: 40px;
+        gap: 15px;
+        padding: 10px;
+        background: var(--bg-secondary);
+        box-shadow: 0 0 5px var(--glow);
+        border: 2px solid var(--glow);
+    }
+
+
+
+    .sectionContainer {
+        display: none;
+    }
+    
+    .sectionContainer.open {
+        display: flex;
+    }
+    
+    .menuButton {
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px;
+        box-shadow: 0 0 5px var(--glow);
+        border: 2px solid var(--glow);
+        font-size: 20px;
+        color: var(--text);
+        cursor: pointer;
+    }
+    .menuButton:hover{
+        color: var(--glow);
+    }
+    .menuButton.open {
+        display: none;
+    }
+
+}

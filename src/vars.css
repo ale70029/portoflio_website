@@ -1,5 +1,21 @@
 :root {
     /* Colours */
+    --text: #fff;
+    --text-secondary : #CBCBCB;
+    --bg: #8f3c25;
+    --bg: #023e8a;
+    --bg-secondary: #000000df;
+    --glow: #FAB23D;
+    --glow: #00b4d8;
+
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+}
+
+
+:root_Old {
+    /* Colours */
     --color-text: #fff;
     --color-primary: #374faf;
     --color-secondary: #19376d;
