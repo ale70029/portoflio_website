@@ -1,15 +1,21 @@
-ANIMAZIONE FOTO
+HERO
+    - Valutare animazione foto
 
-COMPETENZE
-    Posso progettare interfacce grafiche con figma e realizzare grafiche con photoshop ed illustrator.
+ABOUT
+   - "Posso progettare interfacce grafiche con figma e realizzare grafiche con photoshop ed illustrator."
 
-ESPERIENZA
-    Skills in mobile almeno 2 in riga
+EXPERIENCE
+    - Ordinamento skills per titolo, livello o categoria
+        - Aggiungere categoria in skills.js (lista di categorie?)
 
-PROGETTI
-    Carosello progetti
-    tradurre SOURCE e DEMO
+PROJECTS
+    - Carosello progetti?
+    - Tradurre SOURCE e DEMO
 
-CONTATTI
+CONTACTS
 
-    scritta un po piu piccola
+MOBILE
+    - Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
+
+MISC
+    - Provare font yura

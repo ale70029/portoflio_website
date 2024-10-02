@@ -29,23 +29,5 @@ function App () {
   )
 }
 
-/*
-function App () {
-  
-  return (
-    <LangProvider>
-      <div className={styles.App}>
-        <Navbar />
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-      </div>
-    </LangProvider>
-
-  )
-}
-  */
 
 export default App
