@@ -16,7 +16,9 @@ export const text = {
 
         onGoing: "In corso",
 
-        language: "Italiano"
+        language: "Italiano",
+
+        mail: "Mandami una e-mail"
 
     },
 
@@ -38,7 +40,9 @@ export const text = {
 
         onGoing: "Ongoing",
 
-        language: "English"
+        language: "English",
+
+        mail: "Send me an e-mail"
     },
 
     es: {
@@ -59,7 +63,9 @@ export const text = {
 
         onGoing: "En curso",
 
-        language: "Español"
+        language: "Español",
+
+        mail: "Enviame un e-mail"
     },
     heroName: "Alessandro.",
     
