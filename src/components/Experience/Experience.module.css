@@ -36,7 +36,7 @@
 
 .skillsContainer{
     
-    background-color: #181818;
+  
     border-radius: 15px;
     width: 100%;
     
@@ -62,7 +62,7 @@
     gap: 15px;
     background-color: #1c1c1c;
     border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     height: 120px;
     width: 120px; 
     margin: 15px 0; 
@@ -90,19 +90,24 @@
 
 
 .advanced{
-    box-shadow: 0 0px 9px #bd11e4;
+    box-shadow: 0 0 10px 5px #bd11e4;
 }
 
 .intermediate{
-    box-shadow: 0 0px 9px #ffa500;
+    box-shadow: 0 0 10px 5px #ffa500;
 }
 
 .beginner{
-    box-shadow: 0 0px 9px #90ee90;
+    box-shadow: 0 0 10px 5px #90ee90;
 }
 
 
+.divider{
+    border: 0.5px solid var(--text);
+    width: 100%;
+    box-shadow: 0 0 5px 1px var(--glow);
 
+}
 /* HISTORY */
 
 .history {
@@ -124,7 +129,7 @@
     border-radius: 10px;
     padding: 24px;
     color: var(--text);
-    background-color: #181818;
+    background-color: #181717;
     width: 280px;
     
 

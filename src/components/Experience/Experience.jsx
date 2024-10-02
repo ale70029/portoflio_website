@@ -31,6 +31,8 @@ export const Experience = () => {
                 </div>
             </div>
             
+            <hr className={styles.divider}></hr>
+
             <ul className={styles.history}>
                 {
                     history.map((historyItem,id) => {
