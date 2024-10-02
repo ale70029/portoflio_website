@@ -1,42 +1,53 @@
 [
     {
         "title": "HTML",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/html.png",
+        "level" : "advanced"
     },
     {
         "title": "CSS",
-        "imageSrc": "skills/css.png"
+        "imageSrc": "skills/css.png",
+        "level" : "advanced"
     },
     {
         "title": "JavaScript",
-        "imageSrc": "skills/javaScript.png"
+        "imageSrc": "skills/javaScript.png",
+        "level" : "intermediate"
     },
     {
         "title": "Node",
-        "imageSrc": "skills/node.png"
+        "imageSrc": "skills/node.png",
+        "level" : "beginner"
     },
+   
     {
         "title": "React",
-        "imageSrc": "skills/react.png"
+        "imageSrc": "skills/react.png",
+        "level" : "beginner"
     },
     {
         "title": "Git",
-        "imageSrc": "skills/git.png"
+        "imageSrc": "skills/git.png",
+        "level" : "beginner"
     },
     {
         "title": "Java",
-        "imageSrc": "skills/java.png"
+        "imageSrc": "skills/java.png",
+        "level" : "advanced"
     },
     {
         "title": "Python",
-        "imageSrc": "skills/python.png"
+        "imageSrc": "skills/python.png",
+        "level" : "advanced"
     },
     {
         "title": "C#",
-        "imageSrc": "skills/cSharp.png"
+        "imageSrc": "skills/cSharp.png",
+        "level" : "intermediate"
     },
     {
         "title": "SQL",
-        "imageSrc": "skills/sql.png"
+        "imageSrc": "skills/sql.png",
+        "level" : "advanced"
     }
 ]

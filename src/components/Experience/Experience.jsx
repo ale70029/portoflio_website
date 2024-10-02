@@ -18,7 +18,10 @@ export const Experience = () => {
             <div className={styles.skillsContainer}>
                 <div className={styles.skills}>
                     {skills.map((skill,id) =>{
-                        return <div key={id} className={styles.skill}>
+                        return <div key={id} 
+                        className={`${styles.skill} ${skill.level === 'advanced' ? styles.advanced : ''} 
+                        ${skill.level === 'intermediate' ? styles.intermediate : ''} 
+                        ${skill.level === 'beginner' ? styles.beginner : ''}`}>
                             <div className={styles.skillImageContainer}>
                                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                             </div>
