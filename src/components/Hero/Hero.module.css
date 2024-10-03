@@ -127,7 +127,7 @@
         justify-content: center;
     }
     .title {
-        font-size: 35x;
+        font-size: 30px;
         font-weight: 700;
         margin-bottom: 20px;
         margin-top: 20px;
@@ -135,7 +135,7 @@
     }
 
     .heroName{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .description{
