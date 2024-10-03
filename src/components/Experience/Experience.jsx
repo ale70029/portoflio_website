@@ -39,7 +39,8 @@ export const Experience = () => {
                         return <li key={id} className={styles.historyItem}>
                             <img src={getImageUrl(historyItem.imageSrc)} alt={historyItem.organisation} />
                             <div className={styles.historyItemDetails}>
-                                <h3>{`${historyItem.role[lang]}, ${historyItem.organisation}`}</h3>
+                                <h3> {historyItem.role[lang]}</h3>
+                                <h2> {historyItem.organisation}</h2>
                                 <p>{historyItem.startDate + 
                                     " - " + 
                                     (historyItem.endDate === "" ? text[lang].onGoing : historyItem.endDate)}

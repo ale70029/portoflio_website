@@ -15,12 +15,6 @@
         "level" : "intermediate"
     },
     {
-        "title": "Node",
-        "imageSrc": "skills/node.png",
-        "level" : "beginner"
-    },
-   
-    {
         "title": "React",
         "imageSrc": "skills/react.png",
         "level" : "beginner"
