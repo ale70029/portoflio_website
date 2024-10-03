@@ -32,7 +32,7 @@
     color: var(--text);
 }
 .heroName{
-    font-size: 80px;
+    font-size: 60px;
     color: var(--glow-secondary);
     text-shadow: 0 0 2px var(--glow-secondary);
     
