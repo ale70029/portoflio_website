@@ -113,9 +113,10 @@
 
 
 .divider{
-    border: 0.3px solid var(--glow);
-    width: 100%;
-    box-shadow: 0 0 5px 1px var(--glow);
+    align-self: center;
+    border: 1px solid var(--text);
+    width: 65%;
+    box-shadow: 0 0 1px 1px var(--glow);
   
 
 }
