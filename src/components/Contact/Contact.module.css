@@ -58,6 +58,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     list-style: none;
     gap: 60px;
    
@@ -65,6 +66,10 @@
 
 .links a {
     text-decoration: none;
+    color: var(--text);
+}
+
+.links a:hover{
     color: var(--glow);
 }
 
@@ -72,23 +77,20 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 .link h2 {
-    color: var(--color-text);
-    text-decoration: none;
     font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
 }
 
 .link h4 {
-    color: var(--color-text);
-    text-decoration: none;
     font-size: 20px;
     font-weight: 400;
     
 }
+
+
 
 @media screen and (max-width:830px) {
     .container {
