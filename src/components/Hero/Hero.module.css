@@ -80,11 +80,42 @@
     border-radius: 100%;
     box-shadow: 0 0 90px 20px var(--glow),
     0 0 20px 1px var(--glow) inset;
-    
-
+    animation:  shake 7s infinite alternate;
 }
-   
 
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, 5px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  75% {
+    transform: translate(-5px, -5px);
+  }
+  100% {
+    transform: translate(5px, 5px);
+  }
+}
+    /* animation:  4s infinite ease-in-out;
+}
+
+@keyframes shadowFloat {
+  0% {
+    box-shadow: 0 0 60px 20px var(--glow),
+    0 0 20px 1px var(--glow) inset;
+  }
+  50% {
+   
+  }
+  100% {
+   
+  }
+} */
+    
 
 
 @media screen and (max-width: 830px) {
