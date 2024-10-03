@@ -25,7 +25,7 @@
 }
 
 .title {
-    font-size: 72px;
+    font-size: 55px;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
@@ -100,22 +100,7 @@
     transform: translate(5px, 5px);
   }
 }
-    /* animation:  4s infinite ease-in-out;
-}
 
-@keyframes shadowFloat {
-  0% {
-    box-shadow: 0 0 60px 20px var(--glow),
-    0 0 20px 1px var(--glow) inset;
-  }
-  50% {
-   
-  }
-  100% {
-   
-  }
-} */
-    
 
 
 @media screen and (max-width: 830px) {
@@ -125,7 +110,6 @@
         margin-top: 120px;
         align-items: center;
         justify-content: center;
-        margin-right: 20px;
         gap: 20px;
     }
 
@@ -148,7 +132,14 @@
         margin-bottom: 20px;
         margin-top: 20px;
         font-family: var(--font-roboto);
-        
+    }
+
+    .heroName{
+        font-size: 55px;
+    }
+
+    .description{
+        font-size:25px ;
     }
 
 }
