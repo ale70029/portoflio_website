@@ -70,7 +70,7 @@
 
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: #0000004c;
+    background-color: #0000008f;
     border-radius: 15px;
 
  
@@ -96,6 +96,7 @@
 
 .advanced{
     box-shadow: rgba(101, 3, 154, 0.656) 0px -40px 36px -28px inset;
+    box-shadow: rgba(101, 3, 154, 0.656) 0px 25px 20px -20px;
               
            
 
@@ -103,11 +104,12 @@
 
 .intermediate{
     box-shadow: rgba(214, 149, 19, 0.656) 0px -50px 36px -28px inset;
+    box-shadow: rgba(214, 149, 19, 0.656) 0px 25px 20px -20px;
        
 }
 
 .beginner{
-    box-shadow: rgba(3, 138, 39, 0.656) 0px -50px 36px -28px inset;
+    box-shadow: rgba(3, 138, 39, 0.858) 0px 25px 20px -20px;
              
 }
 
