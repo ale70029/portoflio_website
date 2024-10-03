@@ -32,8 +32,10 @@
     color: var(--text);
 }
 .heroName{
+    font-size: 80px;
     color: var(--glow);
-    text-shadow: 0 0 20px var(--glow);
+    text-shadow: 0 0 10px var(--glow-secondary);
+    
 
 }
 .description {
@@ -76,7 +78,10 @@
 
     width: 100%;
     border-radius: 100%;
-    box-shadow: 0 0 90px 20px var(--glow);
+    box-shadow: 0 0 90px 20px var(--glow),
+    0 0 20px 1px var(--glow) inset;
+    
+
 }
    
 
