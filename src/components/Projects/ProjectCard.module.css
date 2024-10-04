@@ -21,7 +21,7 @@
 .image{
     margin-bottom: 26px;
     border-radius: 15px;
-    width: 100%;
+    max-width: 90%;
 }
 
 .title{
