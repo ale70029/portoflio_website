@@ -6,16 +6,17 @@ ABOUT
    - "Posso progettare interfacce grafiche con figma e realizzare grafiche con photoshop ed illustrator."
 
 EXPERIENCE
-    - Ordinamento skills per titolo, livello o categoria
+    - Legenda skills
+    -? Ordinamento skills per titolo, livello o categoria
         - Aggiungere categoria in skills.js (lista di categorie?)
 
 PROJECTS
-    - Carosello progetti?
+    -? Carosello progetti
 
 CONTACTS
 
 MOBILE
-    - Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
+    -? Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
 
 MISC
     - Provare font yura
