@@ -5,6 +5,7 @@ import { getImageUrl } from '../../utils'
 import {text} from "../../data/translation"
 import styles from "./Experience.module.css"
 import LangContext from "../../LanguageContext";
+import '../../vars.css';
 
 
 export const Experience = () => {
@@ -14,6 +15,15 @@ export const Experience = () => {
         <h2 className={styles.title}>{text[lang].navExperience}</h2>
 
         <div className={styles.content}>
+
+            <div className={styles.legend}>
+                {text[lang].level}
+                <ul className={styles.levels}>
+                    <li style={{ color: 'var(--beginner)' }}>{text[lang].beginner}</li>
+                    <li style={{ color: 'var(--intermediate)' }}>{text[lang].intermediate}</li>
+                    <li style={{ color: 'var(--advanced)' }}>{text[lang].advanced}</li>
+                </ul>
+            </div>
 
             <div className={styles.skillsContainer}>
                 <div className={styles.skills}>

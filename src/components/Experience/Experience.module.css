@@ -25,7 +25,7 @@
     letter-spacing: 1.75px;
     text-shadow: 0 0 30px var(--glow);
     text-transform: uppercase;
-    margin-bottom:40px ;
+ 
 }
 
 .content {
@@ -38,6 +38,24 @@
 }
 
 /* SKILLS */
+
+.legend{
+
+    font-size: 20px;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.levels{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
 
 .skillsContainer{
@@ -95,22 +113,15 @@
 
 
 .advanced{
-    box-shadow: rgba(101, 3, 154, 0.656) 0px -40px 36px -28px inset;
-    box-shadow: rgba(101, 3, 154, 0.656) 0px 25px 20px -20px;
-              
-           
-
+    box-shadow: var(--advanced) 0px 25px 20px -20px;  
 }
 
-.intermediate{
-    box-shadow: rgba(214, 149, 19, 0.656) 0px -50px 36px -28px inset;
-    box-shadow: rgba(214, 149, 19, 0.656) 0px 25px 20px -20px;
-       
+.intermediate{   
+    box-shadow: var(--intermediate) 0px 25px 20px -20px; 
 }
 
 .beginner{
-    box-shadow: rgba(3, 138, 39, 0.858) 0px 25px 20px -20px;
-             
+    box-shadow: var(--beginner) 0px 25px 20px -20px;         
 }
 
 

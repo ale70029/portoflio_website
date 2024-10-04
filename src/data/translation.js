@@ -18,7 +18,13 @@ export const text = {
 
         language: "Italiano",
 
-        mail: "Mandami una e-mail"
+        mail: "Mandami una e-mail",
+
+        level:"Livello",
+        beginner: "Principiante",
+        intermediate: "Intermedio",
+        advanced:"Avanzato"
+
 
     },
 
@@ -42,7 +48,12 @@ export const text = {
 
         language: "English",
 
-        mail: "Send me an e-mail"
+        mail: "Send me an e-mail",
+
+        level: "Level",
+        beginner: "Beginner",
+        intermediate: "Intermediate",
+        advanced:"Advanced"
     },
 
     es: {
@@ -65,8 +76,15 @@ export const text = {
 
         language: "Español",
 
-        mail: "Enviame un e-mail"
+        mail: "Enviame un e-mail",
+
+        level: "Nivel",
+        beginner: "Principiante",
+        intermediate: "Intermedio",
+        advanced:"Avanzado"
     },
+
+
     heroName: "Alessandro.",
     
 };

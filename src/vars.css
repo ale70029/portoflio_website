@@ -8,6 +8,10 @@
     --glow-secondary: #179bed;
     --glass: rgba(0, 0, 0, 0.80);
 
+    --beginner: rgba(3, 138, 39, 0.858);
+    --intermediate:  rgba(214, 149, 19, 0.656);
+    --advanced: rgba(101, 3, 154, 0.656);
+
 
     /* Fonts */
     --font-roboto: "Roboto";
