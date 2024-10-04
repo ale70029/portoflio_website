@@ -43,5 +43,15 @@
         "title": "SQL",
         "imageSrc": "skills/sql.png",
         "level" : "advanced"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png",
+        "level" : "beginner"
+    },
+    {
+        "title": "Photoshop",
+        "imageSrc": "skills/photoshop.png",
+        "level" : "intermediate"
     }
 ]

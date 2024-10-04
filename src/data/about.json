@@ -56,9 +56,9 @@
             },
         "description":
             {
-                "it": "Posso progettare interfacce grafiche con FIgma e creare grafiche con Photoshop ed Illustrator",
-                "en": "I can design UIs with Figma and create graphics with Photoshop and Illustrator.",
-                "es": "Puedo diseñar interfaces gráficas con Figma y crear diseños gráficos con Photoshop y Illustrator."
+                "it": "Posso progettare interfacce grafiche con FIgma e creare grafiche con Photoshop.",
+                "en": "I can design UIs with Figma and create graphics with Photoshop.",
+                "es": "Puedo diseñar interfaces gráficas con Figma y crear diseños gráficos con Photoshop."
             },
         "icon": "about/graphic.png"
     }
