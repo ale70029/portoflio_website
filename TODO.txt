@@ -10,12 +10,13 @@ EXPERIENCE
 
 PROJECTS
     - Carosello progetti?
-    - Tradurre SOURCE e DEMO
+    - Al posto di source e demo, lista di link con nome
 
 CONTACTS
 
 MOBILE
     - Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
+    - Logo al centro
 
 MISC
     - Provare font yura
