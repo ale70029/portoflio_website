@@ -80,28 +80,28 @@
     border-radius: 100%;
     box-shadow: 0 0 90px 20px var(--glow),
     0 0 20px 1px var(--glow) inset;
-    animation:  movingShadow 10s infinite alternate ;
+    animation:  movingShadow 20s infinite ;
 }
 
 @keyframes movingShadow {
   0% {
-    box-shadow: 0 0 90px 20px var(--text),
+    box-shadow: 0 0 60px 12px var(--text),
     0 0 20px 1px var(--text) inset;
   }
   25% {
-    box-shadow: 0 0 0px 0px #2f119b,
-    0 0 0px 0px #2f119b inset;
+    box-shadow: 0 0 45px 10px var(--text),
+    0 0 10px 1x var(--text) inset;
   }
   50% {
-    box-shadow: 0 0 90px 20px var(--glow),
-    0 0 20px 1px var(--glow) inset;
+    box-shadow: 0 0 90px 20px var(--text),
+    0 0 20px 1px var(--text) inset;
   }
   75% {
-    box-shadow: 0 0 0px 0px #3602f1,
-    0 0 0px 0px #3602f1 inset;
+    box-shadow: 0 0 45px 10px var(--text),
+    0 0 10px 1x var(--text) inset;
   }
   100% {
-    box-shadow: 0 0 90px 20px var(--text),
+    box-shadow: 0 0 60px 12px var(--text),
     0 0 20px 1px var(--text) inset;
   }
 }
