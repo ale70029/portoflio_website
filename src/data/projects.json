@@ -8,12 +8,12 @@
         },
       "description":
         {
-          "it":"Ho creato questo sito usando Node, React, CSS e JavaScript.",
-          "en":"I made this website with React, following a tutorial.",
-          "es":"He creado esta página web utilizando Node, React, CSS y JavaScript."
+          "it":"Ho ideato questo sito usando Figma e l'ho creato usando React, CSS e JavaScript.",
+          "en":"I designed this website with Figma and created it with React, CSS and JavaScript.",
+          "es":"He diseñado esta página web con Figma y la he creado utilizando Node, React, CSS y JavaScript."
         },
       "imageSrc": "projects/portfolio.png",
-      "skills": ["React", "Node", "JavaScript", "CSS"],
+      "skills": ["React", "JavaScript", "CSS"],
       "links": {
          "Figma": "https://www.figma.com/community/file/1424025488426996915",
          "GitHub": "https://github.com/ale70029/portoflio_website"
