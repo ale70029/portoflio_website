@@ -80,24 +80,29 @@
     border-radius: 100%;
     box-shadow: 0 0 90px 20px var(--glow),
     0 0 20px 1px var(--glow) inset;
-    animation:  shake 7s infinite alternate;
+    animation:  movingShadow 10s infinite alternate ;
 }
 
-@keyframes shake {
+@keyframes movingShadow {
   0% {
-    transform: translate(0, 0);
+    box-shadow: 0 0 90px 20px var(--text),
+    0 0 20px 1px var(--text) inset;
   }
   25% {
-    transform: translate(-5px, 5px);
+    box-shadow: 0 0 0px 0px #2f119b,
+    0 0 0px 0px #2f119b inset;
   }
   50% {
-    transform: translate(5px, -5px);
+    box-shadow: 0 0 90px 20px var(--glow),
+    0 0 20px 1px var(--glow) inset;
   }
   75% {
-    transform: translate(-5px, -5px);
+    box-shadow: 0 0 0px 0px #3602f1,
+    0 0 0px 0px #3602f1 inset;
   }
   100% {
-    transform: translate(5px, 5px);
+    box-shadow: 0 0 90px 20px var(--text),
+    0 0 20px 1px var(--text) inset;
   }
 }
 
@@ -116,7 +121,7 @@
    
 
     .imgContainer {
-        width: 90%;
+        width: 80%;
         padding-right: 20px;
         
 
