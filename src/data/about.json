@@ -42,7 +42,7 @@
             {
                 "it": "Posso creare report raccogliendo dati ed elaborandoli con SQL, Excel, PowerBI e Looker Studio.",
                 "en": "I can create reports by collecting and analyzing data using SQL, Excel, PowerBI, and Looker Studio.",
-                "es": " Puedo crear informes recopilando y analizando datos utilizando SQL, Excel, PowerBI y Looker Studio."
+                "es": "Puedo crear informes recopilando y analizando datos utilizando SQL, Excel, PowerBI y Looker Studio."
             },
         "icon": "about/data.png"
     },
@@ -56,9 +56,9 @@
             },
         "description":
             {
-                "it": "Posso progettare grafiche e crearle con Photoshop.",
-                "en": "I can design graphics and create them with Photoshop.",
-                "es": "Puedo diseñar diseños gráficos y crearlos con Photoshop."
+                "it": "Posso progettare interfacce grafiche con FIgma e creare grafiche con Photoshop ed Illustrator",
+                "en": "I can design UIs with Figma and create graphics with Photoshop and Illustrator.",
+                "es": "Puedo diseñar interfaces gráficas con Figma y crear diseños gráficos con Photoshop y Illustrator."
             },
         "icon": "about/graphic.png"
     }
