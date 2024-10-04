@@ -21,7 +21,7 @@
 
 .title {
     color: var(--text);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-shadow: 0 0 30px var(--glow);
