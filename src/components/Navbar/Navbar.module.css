@@ -64,7 +64,6 @@
 /* LANGUAGE */
 
 .langContainer{
-    flex: 0 0 25%; 
     justify-content: center;
     align-items:center ;
 
@@ -149,21 +148,23 @@
 
 @media screen and (max-width: 830px){
     .navbar {
+       
         flex-direction: row;
-        height: 80px;
+        height: 70px;
         justify-content: space-between;
+        align-items: center;
     }
 
     .logoContainer{
-        flex: 0 0 10%; 
+       margin-left: 12px;
     }
     .logoContainer img {
-        width: 65px;
+        width: 60px;
     }
     
    
     .links {
-   
+        position: end;
         flex-direction: column;
         align-items: center;
         margin-top: 150px;
@@ -189,10 +190,9 @@
     }
     
     .menuButton {
-
         display: flex;
         flex-direction: row;
-        align-items: center;
+        
         padding: 10px;
         margin-left: 15px;
         font-size: 20px;
@@ -213,4 +213,16 @@
         display: none;
     }
 
+    .logoContainer{
+    order: 2;
+  
+    }
+    .menuButton{
+        order:1;
+    }
+
+    .langContainer{
+        order: 3;
+        
+    }
 }

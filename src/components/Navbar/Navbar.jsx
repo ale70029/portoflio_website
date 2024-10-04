@@ -34,7 +34,7 @@ export const Navbar = () => {
         </div>
 
     {/* Language */} 
-        <div className={styles.landContainer}>
+        <div className={styles.langContainer}>
 
             <div className={`${styles.lang} ${languageOpen ? styles.open : ""}`} onClick={ () => {setlanguageOpen(!languageOpen)}}>
                 <img src={getImageUrl(`nav/${lang}.png`)} alt="" />
