@@ -7,12 +7,15 @@ export const ProjectCard = ({project}) => {
     const { lang, setLang } = useContext(LangContext);
     return(
         <div className={styles.container}>
+
             <img src={getImageUrl(project.imageSrc)} 
                 alt={project.title[lang]}
                 className={styles.image}
             />
+
             <h3 className={styles.title}>{project.title[lang]}</h3>
             <p className={styles.description}>{project.description[lang]}</p>
+            
             <ul className={styles.skills}>{project.skills.map((skill,id) =>{
                 return(
                     <li key={id} className={styles.skill}>
@@ -21,10 +24,18 @@ export const ProjectCard = ({project}) => {
                 )
                 })}
             </ul>
+
             <div className={styles.links}>
-                {project.demo!="no"   && (<a href={project.demo} className={styles.link}>Demo</a>)}
-                {project.source!="no" && (<a href={project.source} className={styles.link}>Source</a>)}
+                <ul className={styles.links}>{Object.entries(project.links).map(([key,link]) =>{
+                    return(
+                    <li >
+                        <a className={styles.link} href={link}>{key}</a>
+                    </li>
+                    )
+                    })}
+                </ul>
             </div>
+
         </div>
     )
 };

@@ -14,8 +14,11 @@
         },
       "imageSrc": "projects/portfolio.png",
       "skills": ["React", "Node", "JavaScript", "CSS"],
-      "demo": "no",
-      "source": "https://github.com/ale70029/portoflio_website"
+      "links": {
+         "Figma": "https://www.figma.com/community/file/1424025488426996915",
+         "GitHub": "https://github.com/ale70029/portoflio_website"
+      }
+     
     },
     {
       "title": 
@@ -32,8 +35,9 @@
         }, 
       "imageSrc": "projects/JBubbleBobble.png",
       "skills": ["Java", "MVC Pattern"],
-      "demo": "no",
-      "source": "https://github.com/ale70029/JBubbleBobble"
+      "links": {
+         "GitHub": "https://github.com/ale70029/JBubbleBobble"
+      }
     },
     {
       "title": 
@@ -50,8 +54,7 @@
         }, 
       "imageSrc": "projects/tutela.png",
       "skills": ["Java"],
-      "demo": "no",
-      "source": "no"
+      "links": {}
     }
   ]
   
