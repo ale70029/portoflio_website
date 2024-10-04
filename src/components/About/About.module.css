@@ -9,7 +9,7 @@
     background-color: var(--bg-secondary);
     border-radius: 15px;
     padding: 73px;
-    margin-top: 60px;
+    margin-top: 40px;
     scroll-margin-top: 110px;
 
     backdrop-filter: blur(16px) saturate(180%);
