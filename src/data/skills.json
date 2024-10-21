@@ -64,5 +64,89 @@
         "imageSrc": "skills/photoshop.png",
         "level" : "advanced",
         "area" : "Frontend"
+    },
+    {
+        "title": "MVC Pattern",
+        "imageSrc": "skills/MVC.png",
+        "level" : "advanced",
+        "area" : "Backend"
+    },
+    {
+        "title": "Microsoft Office",
+        "imageSrc": "skills/office.png",
+        "level" : "advanced",
+        "area" : "Data"
+    },
+    {
+        "title": "PowerBI",
+        "imageSrc": "skills/powerBI.png",
+        "level" : "advanced",
+        "area" : "Data"
+    },
+    {
+        "title": "Google Looker",
+        "imageSrc": "skills/looker.png",
+        "level" : "advanced",
+        "area" : "Data"
+    },
+    {
+        "title": "SSMS",
+        "imageSrc": "skills/ssms.png",
+        "level" : "intermediate",
+        "area" : "IDE"
+    },
+    {
+        "title": "Eclipse",
+        "imageSrc": "skills/eclipse.png",
+        "level" : "advanced",
+        "area" : "IDE"
+    },
+    {
+        "title": "Visual Studio",
+        "imageSrc": "skills/vs.png",
+        "level" : "advanced",
+        "area" : "IDE"
+    },
+    {
+        "title": "Visual Studio Code",
+        "imageSrc": "skills/vscode.png",
+        "level" : "advanced",
+        "area" : "IDE"
+    },
+    {
+        "title": "Jupyter Notebook",
+        "imageSrc": "skills/jupyter.png",
+        "level" : "intermediate",
+        "area" : "IDE"
+    },
+    {
+        "title": "Windows",
+        "imageSrc": "skills/windows.png",
+        "level" : "advanced",
+        "area" : "OS"
+    },
+    {
+        "title": "Android",
+        "imageSrc": "skills/android.png",
+        "level" : "advanced",
+        "area" : "OS"
+    },
+    {
+        "title": "Linux",
+        "imageSrc": "skills/linux.png",
+        "level" : "intermediate",
+        "area" : "OS"
+    },
+    {
+        "title": "macOS",
+        "imageSrc": "skills/macOS.png",
+        "level" : "beginner",
+        "area" : "OS"
+    },
+    {
+        "title": "iOS",
+        "imageSrc": "skills/iOS.png",
+        "level" : "beginner",
+        "area" : "OS"
     }
 ]

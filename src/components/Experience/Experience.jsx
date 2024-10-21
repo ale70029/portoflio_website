@@ -45,6 +45,8 @@ export const Experience = () => {
                     <option value="Frontend">Frontend</option>
                     <option value="Backend">Backend</option>
                     <option value="Data">Data</option>
+                    <option value="IDE">IDE</option>
+                    <option value="OS">OS</option>
                 </select>
             </div>
 

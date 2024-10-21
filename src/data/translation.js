@@ -25,9 +25,7 @@ export const text = {
         intermediate: "Intermedio",
         advanced:"Avanzato",
 
-
-        filter: "Filtra per categoria : ",
-        system: "Sistemi operativi"
+        filter: "Filtra per categoria : "
 
 
     },
@@ -59,9 +57,7 @@ export const text = {
         intermediate: "Intermediate",
         advanced:"Advanced",
 
-
-        filter: "Filter by category : ",
-        system: "Operating systems"
+        filter: "Filter by category : "
     },
 
     es: {
@@ -91,9 +87,7 @@ export const text = {
         intermediate: "Intermedio",
         advanced:"Avanzado",
 
-
-        filter: "Filtrar por categoría : ",
-        system: "Sistemas operativos"
+        filter: "Filtrar por categoría : "
     },
 
 
