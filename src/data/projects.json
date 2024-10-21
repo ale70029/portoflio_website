@@ -29,14 +29,33 @@
         },
       "description":
         {
-          "it": "Ho sviluppato questo gioco per un esame universitario, seguendo il modello MVC con Java.",
-          "en": "I made this game for a University project using Java, following MVC pattern.",
-          "es": "Desarrollé este juego para un examen universitario, siguiendo el modelo MVC con Java."
+          "it": "Ho sviluppato questo gioco per un esame universitario, seguendo il modello MVC con Java. Attualmente sto realizzando una versione migliorata priva delle limitazioni scolastiche.",
+          "en": "I made this game for a University project using Java, following MVC pattern. I am currently working on an improved version without the school limitations.",
+          "es": "Desarrollé este juego para un examen universitario, siguiendo el modelo MVC con Java. Actualmente estoy realizando una versión mejorada sin las limitaciones escolares."
         }, 
       "imageSrc": "projects/JBubbleBobble.png",
       "skills": ["Java", "MVC Pattern"],
       "links": {
          "GitHub": "https://github.com/ale70029/JBubbleBobble"
+      }
+    },
+    {
+      "title": 
+        {
+          "it":"PowerBI Reports",
+          "en":"PowerBI Reports",
+          "es":"PowerBI Reports"
+        },
+      "description":
+        {
+          "it":"Un paio di report realizzati con PowerBi durante il corso Data Analyst di Epicode",
+          "en":"A couple of reports made with PowerBI during the 'Data Analyst' Course by Epicode",
+          "es":"Un par de informes realizados con Power BI durante el curso de Data Analyst en Epicode."
+        }, 
+      "imageSrc": "projects/PBReports.png",
+      "skills": ["PowerBI"],
+      "links": {
+         "GitHub": "https://github.com/ale70029/Epicode-Projects"
       }
     },
     {
