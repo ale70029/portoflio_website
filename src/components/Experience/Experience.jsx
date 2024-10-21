@@ -1,4 +1,4 @@
-import React,{useContext} from 'react'
+import React,{useContext,useState} from 'react'
 import skills from "../../data/skills.json"
 import history from "../../data/history.json"
 import { getImageUrl } from '../../utils'
@@ -10,6 +10,19 @@ import '../../vars.css';
 
 export const Experience = () => {
     const { lang, setLang } = useContext(LangContext);
+    const [items, setItems] = useState(skills);
+
+  const handleFilterChange = (event) => {
+    const area = event.target.value;
+    if (area === '') {
+        setItems(skills);
+    } else {
+      const filteredItems = skills.filter(item => item.area === area);
+      setItems(filteredItems);
+    }
+  };
+  
+      
   return (
     <section id='experience' className={styles.container}>
         <h2 className={styles.title}>{text[lang].navExperience}</h2>
@@ -25,9 +38,19 @@ export const Experience = () => {
                 </ul>
             </div>
 
+            <div className={styles.filter}>
+                <label htmlFor="filter">Filtra per nome:</label>
+                <select onChange={handleFilterChange}>
+                    <option value="">All</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="Data">Data</option>
+                </select>
+            </div>
+
             <div className={styles.skillsContainer}>
                 <div className={styles.skills}>
-                    {skills.map((skill,id) =>{
+                    {items.map((skill,id) =>{
                         return <div key={id} 
                         className={`${styles.skill} ${skill.level === 'advanced' ? styles.advanced : ''} 
                         ${skill.level === 'intermediate' ? styles.intermediate : ''} 

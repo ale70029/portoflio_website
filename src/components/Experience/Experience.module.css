@@ -135,6 +135,29 @@
 }
 
 
+.filter{
+    
+    label{
+        font-size: 18px;
+        color: var(--text);
+        gap: 20px;
+    };
+    select{
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: #0000008f;
+        border-radius: 5px;
+
+        font-size: 19px;
+        color: var(--text);
+        text-align: center;
+    };
+    option{
+        
+        color: var(--text);
+   };
+}
+
 .divider{
     align-self: center;
     border: 1px solid var(--text);
@@ -267,6 +290,10 @@
 
     .skillImageContainer img {
         width: 60px;
+    }
+    .legend{
+
+        font-size: 14px;
     }
     
     .history {

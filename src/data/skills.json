@@ -2,56 +2,67 @@
     {
         "title": "HTML",
         "imageSrc": "skills/html.png",
-        "level" : "advanced"
+        "level" : "advanced",
+        "area" : "Frontend"
     },
     {
         "title": "CSS",
         "imageSrc": "skills/css.png",
-        "level" : "advanced"
+        "level" : "advanced",
+        "area" : "Frontend"
     },
     {
         "title": "JavaScript",
         "imageSrc": "skills/javaScript.png",
-        "level" : "intermediate"
+        "level" : "intermediate",
+        "area" : "Frontend"
     },
     {
         "title": "React",
         "imageSrc": "skills/react.png",
-        "level" : "intermediate"
+        "level" : "intermediate",
+        "area" : "Frontend"
     },
     {
         "title": "Git",
         "imageSrc": "skills/git.png",
-        "level" : "intermediate"
+        "level" : "intermediate",
+        "area" : "Backend"
     },
     {
         "title": "Java",
         "imageSrc": "skills/java.png",
-        "level" : "advanced"
+        "level" : "advanced",
+        "area" : "Backend"
     },
     {
         "title": "Python",
         "imageSrc": "skills/python.png",
-        "level" : "advanced"
+        "level" : "advanced",
+        "area" : "Backend"
     },
     {
         "title": "C#",
         "imageSrc": "skills/cSharp.png",
-        "level" : "intermediate"
+        "level" : "intermediate",
+        "area" : "Backend"
     },
     {
         "title": "SQL / T-SQL",
         "imageSrc": "skills/sql.png",
-        "level" : "advanced"
+        "level" : "advanced",
+        "area" : "Data"
     },
     {
         "title": "Figma",
         "imageSrc": "skills/figma.png",
-        "level" : "beginner"
+        "level" : "beginner",
+        "area" : "Frontend"
     },
     {
         "title": "Photoshop",
         "imageSrc": "skills/photoshop.png",
-        "level" : "advanced"
+        "level" : "advanced",
+        "area" : "Frontend"
     }
 ]

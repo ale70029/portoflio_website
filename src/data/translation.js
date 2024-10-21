@@ -23,7 +23,11 @@ export const text = {
         level:"Livello",
         beginner: "Principiante",
         intermediate: "Intermedio",
-        advanced:"Avanzato"
+        advanced:"Avanzato",
+
+
+        filter: "Filtra per categoria : ",
+        system: "Sistemi operativi"
 
 
     },
@@ -53,7 +57,11 @@ export const text = {
         level: "Level",
         beginner: "Beginner",
         intermediate: "Intermediate",
-        advanced:"Advanced"
+        advanced:"Advanced",
+
+
+        filter: "Filter by category : ",
+        system: "Operating systems"
     },
 
     es: {
@@ -81,7 +89,11 @@ export const text = {
         level: "Nivel",
         beginner: "Principiante",
         intermediate: "Intermedio",
-        advanced:"Avanzado"
+        advanced:"Avanzado",
+
+
+        filter: "Filtrar por categoría : ",
+        system: "Sistemas operativos"
     },
 
 
