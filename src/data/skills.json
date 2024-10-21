@@ -22,7 +22,7 @@
     {
         "title": "Git",
         "imageSrc": "skills/git.png",
-        "level" : "beginner"
+        "level" : "intermediate"
     },
     {
         "title": "Java",
@@ -40,7 +40,7 @@
         "level" : "intermediate"
     },
     {
-        "title": "SQL",
+        "title": "SQL / T-SQL",
         "imageSrc": "skills/sql.png",
         "level" : "advanced"
     },
@@ -52,6 +52,6 @@
     {
         "title": "Photoshop",
         "imageSrc": "skills/photoshop.png",
-        "level" : "intermediate"
+        "level" : "advanced"
     }
 ]

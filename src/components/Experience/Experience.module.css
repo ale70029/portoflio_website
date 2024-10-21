@@ -45,10 +45,11 @@
     font-size: 22px;
     color: var(--text);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     align-self: center;
     justify-content: space-evenly;
+    gap : 20px;
 
     padding: 10px;
     backdrop-filter: blur(16px) saturate(180%);
