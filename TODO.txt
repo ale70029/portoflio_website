@@ -3,13 +3,9 @@ NAVBAR
 HERO
 
 ABOUT
-   - "Posso progettare interfacce grafiche con figma e realizzare grafiche con photoshop ed illustrator."
 
 EXPERIENCE
-    - Legenda skills
-    -? Ordinamento skills per titolo, livello o categoria
-        - Aggiungere categoria in skills.js (lista di categorie?)
-
+    
 PROJECTS
     -? Carosello progetti
 
@@ -19,4 +15,3 @@ MOBILE
     -? Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
 
 MISC
-    - Provare font yura
