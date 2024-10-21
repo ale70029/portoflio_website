@@ -39,9 +39,9 @@ export const Experience = () => {
             </div>
 
             <div className={styles.filter}>
-                <label htmlFor="filter">Filtra per nome:</label>
+                <label htmlFor="filter">{text[lang].filter}</label>
                 <select onChange={handleFilterChange}>
-                    <option value="">All</option>
+                    <option value="">{text[lang].all}</option>
                     <option value="Frontend">Frontend</option>
                     <option value="Backend">Backend</option>
                     <option value="Data">Data</option>

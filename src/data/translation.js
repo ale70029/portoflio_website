@@ -25,7 +25,8 @@ export const text = {
         intermediate: "Intermedio",
         advanced:"Avanzato",
 
-        filter: "Filtra per categoria : "
+        filter: "Filtra per categoria : ",
+        all: "Tutto"
 
 
     },
@@ -57,7 +58,8 @@ export const text = {
         intermediate: "Intermediate",
         advanced:"Advanced",
 
-        filter: "Filter by category : "
+        filter: "Filter by category : ",
+        all: "All"
     },
 
     es: {
@@ -87,7 +89,8 @@ export const text = {
         intermediate: "Intermedio",
         advanced:"Avanzado",
 
-        filter: "Filtrar por categoría : "
+        filter: "Filtrar por categoría : ",
+        all: "Todo"
     },
 
 
