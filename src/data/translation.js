@@ -1,9 +1,9 @@
 export const text = {
     it:{
         heroGreeting: "Ciao, mi chiamo ",
-        heroText: `Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma e parlo fluentemente Italiano, Inglese e 
-                   Spagnolo. Studio Informatica 
-                   in modalità teledidattica presso l'Università 'La Sapienza' di Roma, e sto cercando lavoro come sviluppatore!`,
+        heroText: `Ho una grande passione per tutto quello che riguarda la programmazione e sto cercando lavoro come sviluppatore!
+                   Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma e studio Informatica 
+                   in modalità teledidattica presso l'Università "La Sapienza", in modo da poter conciliare lo studio con il lavoro.`,
         heroContact: "Mettiamoci in contatto!",
 
         navHome: "Portfolio",
@@ -33,10 +33,9 @@ export const text = {
 
     en:{
         heroGreeting: "Hi, I'm ",
-        heroText: `I am a ${new Date().getFullYear() - 1994}-year-old guy, living in Rome.
-                    I speak Italian, English, and Spanish fluently. I am looking for a job as 
-                    a developer while pursuing a distance learning 
-                    degree in Computer Science at 'La Sapienza' University in Rome.`,
+        heroText:  `I have a great passion for everything related to programming and I'm looking for a job as a developer!
+                    I am ${new Date().getFullYear() - 1994} years old, I live in Rome and I'm studying Computer Science
+                    via distance learning at the University of "La Sapienza", allowing me to balance work and studies.`,
         heroContact: "Get in touch!",
     
         navHome: "Portfolio",
@@ -64,10 +63,9 @@ export const text = {
 
     es: {
         heroGreeting: "Hola, me llamo ",
-        heroText: `Soy un chico de ${new Date().getFullYear() - 1994} años, 
-                    vivo en Roma y hablo fluidamente Italiano, Inglés y Español. 
-                    Estoy buscando trabajo como desarrollador mientras curso 
-                    un grado en Informática online en la Universidad 'La Sapienza' de Roma.`,
+        heroText: `Tengo una gran pasión por todo lo relacionado con la programación y estoy buscando trabajo como desarrollador!
+                    Tengo ${new Date().getFullYear() - 1994} años, vivo en Roma y estudio Informática en modalidad a distancia en
+                    la Universidad "La Sapienza", lo que me permite compaginar el estudio con el trabajo.`,
         heroContact: "Pongámonos en contacto!",
     
         navHome: "Portafolio",
