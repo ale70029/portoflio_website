@@ -9,10 +9,6 @@ export const Contact = () => {
     const { lang, setLang } = useContext(LangContext);
   return (
     <footer id='contact' className={styles.container}>
-        <div className={styles.text}>
-            <h2>{text[lang].navContact}</h2>
-            <p>{text[lang].contactMessage}</p>
-        </div>
         <div className={styles.linksContainer}>
             <ul className={styles.links}>
 
