@@ -41,7 +41,6 @@
 /* SKILLS */
 
 .legend{
-
     font-size: 22px;
     color: var(--text);
     display: flex;
@@ -90,7 +89,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    height: 120px;
+    height: 150px;
     width: 120px; 
     margin: 15px 0;
     margin-bottom: 20px;
@@ -113,27 +112,20 @@
 
 .skillImageContainer img {
     width: 70px;
+    margin-bottom: 5px;
 }
 
 .skill p {
+    
     color: var(--text);
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
     font-family: var(--font-roboto);
     text-align: center;
 }
 
-
-.advanced{
-    box-shadow: var(--advanced) 0px 25px 20px -20px;  
-}
-
-.intermediate{   
-    box-shadow: var(--intermediate) 0px 25px 20px -20px; 
-}
-
-.beginner{
-    box-shadow: var(--beginner) 0px 25px 20px -20px;         
+.levelStar{
+    font-size: 20px;
 }
 
 
@@ -265,7 +257,7 @@
         
         margin: 10px;
         margin-bottom: 20px;
-        height: 100px;
+        height: 130px;
         width: 100px;
      
     }

@@ -21,6 +21,18 @@ export const Experience = () => {
       setItems(filteredItems);
     }
   };
+
+  const getLevel = (level) => {
+    if (level === "beginner") {
+      return "★";
+    } else if (level === "intermediate") {
+      return "★★";
+    } else if (level === "advanced") {
+      return "★★★";
+    } else {
+      return "";
+    }
+  };
   
       
   return (
@@ -30,11 +42,10 @@ export const Experience = () => {
         <div className={styles.content}>
 
             <div className={styles.legend}>
-                {text[lang].level}
                 <ul className={styles.levels}>
-                    <li style={{ color: 'var(--beginner)' }}>{text[lang].beginner}</li>
-                    <li style={{ color: 'var(--intermediate)' }}>{text[lang].intermediate}</li>
-                    <li style={{ color: 'var(--advanced)' }}>{text[lang].advanced}</li>
+                    <li>{text[lang].beginner} ★ </li>
+                    <li>{text[lang].intermediate} ★★ </li>
+                    <li>{text[lang].advanced} ★★★</li>
                 </ul>
             </div>
 
@@ -54,13 +65,12 @@ export const Experience = () => {
                 <div className={styles.skills}>
                     {items.map((skill,id) =>{
                         return <div key={id} 
-                        className={`${styles.skill} ${skill.level === 'advanced' ? styles.advanced : ''} 
-                        ${skill.level === 'intermediate' ? styles.intermediate : ''} 
-                        ${skill.level === 'beginner' ? styles.beginner : ''}`}>
+                        className={styles.skill}>
                             <div className={styles.skillImageContainer}>
                                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                             </div>
                             <p>{skill.title}</p>
+                            <p className={styles.levelStars}>{getLevel(skill.level)}</p>
                         </div>
                     })}
                 </div>
