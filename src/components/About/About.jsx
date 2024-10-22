@@ -17,7 +17,10 @@ export const About = () => {
                                 <img src={getImageUrl(about.icon)} alt="icon" />
                                 <div className={styles.aboutItemText}>
                                     <h3>{about.title[lang]}</h3>
-                                    <p>{about.description[lang]}</p>
+                                    <div>{about.description[lang].split('\n').map((line, index) => (
+                                         <p key={index}>{line}</p>
+                                        ))}
+                                    </div>
                                 </div>
                             </li>
                     })}   

@@ -61,5 +61,21 @@
                 "es": "Puedo diseñar interfaces gráficas con Figma y crear diseños gráficos con Photoshop."
             },
         "icon": "about/graphic.png"
+    },
+
+    {
+        "title":
+            {
+                "it": "Lingue",
+                "en": "Languages",
+                "es": "Idiomas"
+            },
+        "description":
+            {
+                "it": "L'Italiano è la mia lingua madre ma parlo fluentemente anche Inglese e Spagnolo,\nlingue che ho potuto migliorare vivendo a Londra e Barcellona.",
+                "en": "Italian is my native language, but I also speak English and Spanish fluently,\nlanguages I was able to improve by living in London and Barcelona.",
+                "es": "El Italiano es mi lengua materna, pero también hablo Inglés y Español con fluidez,\nidiomas que pude mejorar viviendo en Londres y Barcelona."
+            },
+        "icon": "about/languages.png"
     }
 ]
