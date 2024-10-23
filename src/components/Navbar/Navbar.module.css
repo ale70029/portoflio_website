@@ -1,5 +1,60 @@
 @import "../../vars.css";
 
+/* DESKTOP */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline:62px;
+    text-transform: uppercase;
+}
+
+.title{
+ font-weight: bold;
+ font-size: 48px;
+ color: var(--text);
+}
+
+.anchors{
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+    font-weight:normal;
+    font-size: 32px;
+    gap: 63px;
+
+    a{
+        text-decoration: none;
+        color: var(--text);
+    }
+
+    a:hover{
+        color: var(--color0);
+    }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 830px){
+
+    .navbar{
+        justify-content: center;
+    }
+    .title{
+        display: none;
+    }
+    .anchors {
+        gap: 20px;
+        a{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+/*
 .navbar {
     position: fixed;
     top: 0;
@@ -27,7 +82,7 @@
 }
 
 
-/* SECTIONS */
+/* SECTIONS 
 .menuButton {
     display: none;
 }
@@ -61,7 +116,7 @@
 
 
 
-/* LANGUAGE */
+/* LANGUAGE 
 
 .langContainer{
     justify-content: center;
@@ -144,7 +199,7 @@
 }
 
 
-/* MOBILE */
+/* MOBILE 
 
 @media screen and (max-width: 830px){
     .navbar {
@@ -225,4 +280,4 @@
         order: 3;
         
     }
-}
+} */

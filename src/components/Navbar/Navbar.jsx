@@ -10,15 +10,31 @@ export const Navbar = () => {
   const { lang, setLang } = useContext(LangContext);
 
   return (
-    <div className={styles.navbar}>
-    {/* Logo */} 
+
+    <section className={styles.navbar}>
+        <div className={styles.title}>PORTFOLIO</div>
+        <ul className={styles.anchors}>
+            <li> <a href="#about">{text[lang].navAbout}</a> </li>
+            <li> <a href="#experience">{text[lang].navExperience}</a> </li>
+            <li> <a href="#projects">{text[lang].navProjects}</a> </li>
+            <li> <a href="#contact">{text[lang].navContact}</a> </li>
+        </ul>
+    </section>
+    
+  );
+};
+
+
+/* 
+<div className={styles.navbar}>
+    
         <div className={styles.logoContainer}>
             <img src={getImageUrl(`nav/logo.png`)} alt="Logo" />
         </div>
       
 
-    {/* Sections */}
-        {/* Menu Button only in mobile */}
+   
+      
         <div className={`${styles.menuButton} ${menuOpen ? styles.open : ""}`} onClick={ () => {setmenuOpen(!menuOpen)}}>
             <p>Menu</p> 
         </div>
@@ -33,7 +49,6 @@ export const Navbar = () => {
             </ul>
         </div>
 
-    {/* Language */} 
         <div className={styles.langContainer}>
 
             <div className={`${styles.lang} ${languageOpen ? styles.open : ""}`} onClick={ () => {setlanguageOpen(!languageOpen)}}>
@@ -58,6 +73,4 @@ export const Navbar = () => {
                 </ul>
             </div>
         </div>
-    </div>
-  );
-};
+    </div> */
