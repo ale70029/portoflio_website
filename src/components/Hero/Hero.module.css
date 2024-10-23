@@ -51,6 +51,12 @@
         font-weight: bold;
         text-decoration: none;
     }
+
+    a:hover{
+        color: var(--color0);
+        border: 1px solid var(--color0);
+
+    }
     
 }
 
