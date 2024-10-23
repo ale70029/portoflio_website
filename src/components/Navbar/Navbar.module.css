@@ -21,8 +21,8 @@
     flex-direction: row;
 
     list-style: none;
-    font-weight:normal;
-    font-size: 32px;
+    font-weight:bold;
+    font-size: 28px;
     gap: 63px;
 
     a{
