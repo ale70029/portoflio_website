@@ -16,7 +16,7 @@
 
     h1{ /*name*/
         color: var(--color0);
-        font-size: 85px;
+        font-size: 97px;
         font-weight: bold;
         text-transform: uppercase;
 
@@ -65,9 +65,7 @@
 .photo{
     img{
         width: 400px;
-        border-top: 5px solid var(--color0);
-        border-left: 5px solid var(--color0);
-        border-right: 5px solid var(--color0);
+        border: 5px solid var(--color0);
     }
 }
 
@@ -85,7 +83,6 @@
     .photo{
         img{
             width: 200px;
-            border-bottom: 5px solid var(--color0);
         }
 
     }
