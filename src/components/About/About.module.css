@@ -1,5 +1,7 @@
 @import "../../vars.css";
 
+/* DESKTOP */
+
 .about{
     background-color: var(--color1);
 }
@@ -43,6 +45,30 @@
         font-size: 22px;
         font-weight: lighter;
     }
+}
+
+/* MOBILE */
+
+@media screen and (max-width:830px) {
+
+    .roles{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-block: 50px;
+    }
+
+    .role{
+
+        h1{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
 }
 
 
