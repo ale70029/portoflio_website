@@ -2,9 +2,9 @@
     {
       "title": 
         {
-          "it":"Portfolio Web",
-          "en":"Web Portfolio",
-          "es":"Portafolio web"
+          "it":"Portfolio Web 3.0",
+          "en":"Web Portfolio 3.0",
+          "es":"Portafolio web 3.0"
         },
       "description":
         {
@@ -15,7 +15,7 @@
       "imageSrc": "projects/portfolio.png",
       "skills": ["React", "JavaScript", "CSS"],
       "links": {
-         "Figma": "https://www.figma.com/community/file/1424025488426996915",
+         "Figma": "https://www.figma.com/community/file/1431344962389112939",
          "GitHub": "https://github.com/ale70029/portoflio_website"
       }
      
