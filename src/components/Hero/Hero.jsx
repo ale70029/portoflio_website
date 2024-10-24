@@ -14,7 +14,6 @@ export const Hero = () => {
                 <p>{text[lang].heroText}</p>
                 <div className={styles.buttons}>
                     <a href="#contact"> {text[lang].heroContact}</a>
-                    <a href="#contact"> {text[lang].heroContact}</a> {/* CURRICULUM*/}
                 </div>
             </div>
             <div className={styles.photo}>
