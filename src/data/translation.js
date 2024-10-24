@@ -25,8 +25,14 @@ export const text = {
         intermediate: "Intermedio",
         advanced:"Avanzato",
 
-        filter: "Filtra per categoria : ",
-        all: "Tutto"
+        filters:{
+            all: "Tutto",
+            FE: "Frontend",
+            BE: "Backend",
+            Data: "Data",
+            IDE: "IDE",
+            OS: "Sistemi Operativi"
+        }
 
 
     },
@@ -57,8 +63,14 @@ export const text = {
         intermediate: "Intermediate",
         advanced:"Advanced",
 
-        filter: "Filter by category : ",
-        all: "All"
+        filters:{
+            all: "All",
+            FE: "Frontend",
+            BE: "Backend",
+            Data: "Data",
+            IDE: "IDE",
+            OS: "Operating System"
+        }
     },
 
     es: {
@@ -87,8 +99,14 @@ export const text = {
         intermediate: "Intermedio",
         advanced:"Avanzado",
 
-        filter: "Filtrar por categoría : ",
-        all: "Todo"
+        filters:{
+            all: "All",
+            FE: "Frontend",
+            BE: "Backend",
+            Data: "Data",
+            IDE: "IDE",
+            OS: "Operating System"
+        }
     },
 
 
