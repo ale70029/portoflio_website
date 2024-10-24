@@ -11,17 +11,17 @@
 }
 
 .title{
- font-weight: bold;
  font-size: 48px;
+ font-weight: lighter;
  color: var(--text);
 }
 
 .anchors{
     display: flex;
     flex-direction: row;
+    font-weight: lighter;
 
     list-style: none;
-    font-weight:bold;
     font-size: 28px;
     gap: 63px;
 
