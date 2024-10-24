@@ -1,10 +1,10 @@
 export const text = {
     it:{
-        heroGreeting: "Ciao, mi chiamo ",
         heroText: `Ho una grande passione per tutto quello che riguarda la programmazione e sto cercando lavoro come sviluppatore!
                    Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma e studio Informatica 
                    in modalità teledidattica presso l'Università "La Sapienza", in modo da poter conciliare lo studio con il lavoro.`,
         heroContact: "Mettiamoci in contatto!",
+        curriculum : "Scarica il mio Curriculum",
 
         navHome: "Portfolio",
         navAbout:"Competenze",
@@ -38,11 +38,11 @@ export const text = {
     },
 
     en:{
-        heroGreeting: "Hi, I'm ",
         heroText:  `I have a great passion for everything related to programming and I'm looking for a job as a developer!
                     I am ${new Date().getFullYear() - 1994} years old, I live in Rome and I'm studying Computer Science
                     via distance learning at the University of "La Sapienza", allowing me to balance work and studies.`,
         heroContact: "Get in touch!",
+        curriculum : "Download my CV",
     
         navHome: "Portfolio",
         navAbout: "About",
@@ -74,11 +74,11 @@ export const text = {
     },
 
     es: {
-        heroGreeting: "Hola, me llamo ",
         heroText: `Tengo una gran pasión por todo lo relacionado con la programación y estoy buscando trabajo como desarrollador!
                     Tengo ${new Date().getFullYear() - 1994} años, vivo en Roma y estudio Informática en modalidad a distancia en
                     la Universidad "La Sapienza", lo que me permite compaginar el estudio con el trabajo.`,
         heroContact: "Pongámonos en contacto!",
+        curriculum : "Descarga mi CV",
     
         navHome: "Portafolio",
         navAbout: "Competencias",
