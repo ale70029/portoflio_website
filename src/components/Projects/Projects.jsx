@@ -2,12 +2,8 @@ import React,{useContext} from 'react'
 import projects from "../../data/projects.json"
 import {text} from "../../data/translation"
 import { getImageUrl } from '../../utils'
-import { ProjectCard } from './ProjectCard'
 import styles from "./Projects.module.css"
 import LangContext from "../../LanguageContext";
-
-
-
 
 export const Projects = () => {
   const { lang, setLang } = useContext(LangContext);
@@ -21,7 +17,7 @@ export const Projects = () => {
                     <img src={getImageUrl(project.imageSrc)} alt={project.title[lang]}/>
                     <h1>{project.title[lang]}</h1>
                     <p>{project.description[lang]}</p>
-                    <ul className={styles.itemSkills}>{project.skills.map((skill,id) =>{
+                    <ul className={styles.skills}>{project.skills.map((skill,id) =>{
                         return(
                           <li>{skill}</li>
                         )})}

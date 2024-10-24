@@ -57,23 +57,6 @@
       "links": {
          "GitHub": "https://github.com/ale70029/Epicode-Projects"
       }
-    },
-    {
-      "title": 
-        {
-          "it":"Tutela - Manutenzione veicoli",
-          "en":"Tutela - Vehicle maintenance",
-          "es":"Tutela - Mantenimiento de vehículos"
-        },
-      "description":
-        {
-          "it":"Sto sviluppando un'applicazione per gestire la manutenzione dei veicoli.",
-          "en":"I'm developing an android app to manage vehicle maintenance.",
-          "es":"Estoy desarrollando una aplicación para gestionar el mantenimiento de vehículos."
-        }, 
-      "imageSrc": "projects/tutela.png",
-      "skills": ["Java"],
-      "links": {}
     }
   ]
   
