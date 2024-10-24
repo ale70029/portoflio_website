@@ -9,7 +9,7 @@ export const LangProvider = ({ children }) => {
     <LangContext.Provider value={{ lang, setLang }}>
       {children}
     </LangContext.Provider>
-  );
-};
+  )
+}
 
 export default LangContext;

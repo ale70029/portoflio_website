@@ -14,9 +14,7 @@ export const Experience = () => {
     const [area, setArea] = useState("");
 
   const handleFilter = (filter) => {
-    
     setArea(filter);
-    
     if (filter === '') {
         setItems(skills);
     } else {
@@ -37,7 +35,6 @@ export const Experience = () => {
     }
   };
   
-      
   return (
     <section className={styles.experience} id='experience'>
         <h1>{text[lang].navExperience}</h1>
@@ -86,71 +83,3 @@ export const Experience = () => {
     </section>
   )
 }
-
-
-// <section id='experience' className={styles.container}>
-//         <h2 className={styles.title}>{text[lang].navExperience}</h2>
-
-//         <div className={styles.content}>
-
-//             <div className={styles.legend}>
-//                 <ul className={styles.levels}>
-//                     <li>{text[lang].beginner} ★ </li>
-//                     <li>{text[lang].intermediate} ★★ </li>
-//                     <li>{text[lang].advanced} ★★★</li>
-//                 </ul>
-//             </div>
-
-//             <div className={styles.filter}>
-//                 <label htmlFor="filter">{text[lang].filter}</label>
-//                 <select onChange={handleFilterChange}>
-//                     <option value="">{text[lang].all}</option>
-//                     <option value="Frontend">Frontend</option>
-//                     <option value="Backend">Backend</option>
-//                     <option value="Data">Data</option>
-//                     <option value="IDE">IDE</option>
-//                     <option value="OS">OS</option>
-//                 </select>
-//             </div>
-
-//             <div className={styles.skillsContainer}>
-//                 <div className={styles.skills}>
-//                     {items.map((skill,id) =>{
-//                         return <div key={id} 
-//                         className={styles.skill}>
-//                             <div className={styles.skillImageContainer}>
-//                                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-//                             </div>
-//                             <p>{skill.title}</p>
-//                             <p className={styles.levelStars}>{getLevel(skill.level)}</p>
-//                         </div>
-//                     })}
-//                 </div>
-//             </div>
-            
-//             <hr className={styles.divider}></hr>
-
-//             <ul className={styles.history}>
-//                 {
-//                     history.map((item,id) => {
-//                         return <li key={id} className={styles.item}>
-//                             <img src={getImageUrl(item.imageSrc)} alt={item.organisation} />
-//                             <div className={styles.itemDetails}>
-//                                 <h3> {item.role[lang]}</h3>
-//                                 <h2> {item.organisation}</h2>
-//                                 <p>{item.startDate + 
-//                                     " - " + 
-//                                     (item.endDate === "" ? text[lang].onGoing : item.endDate)}
-//                                 </p>
-
-//                                 <ul>{item.experiences.map((experience,id) => {
-//                                     return <li key={id}>{experience}</li>
-//                                     })}
-//                                 </ul>
-//                             </div>
-//                         </li>
-//                     })
-//                 }
-//             </ul>
-//         </div>
-//     </section>

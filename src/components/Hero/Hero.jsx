@@ -22,29 +22,6 @@ export const Hero = () => {
             <div className={styles.photo}>
                 <img src={getImageUrl("hero/heroImage.png")} alt="Hero-image" />
             </div>
-
         </section>
-    );
-};
-
-
-// <div  className={styles.container}>
-//             <div id="home" className={styles.imgContainer}>
-//                             <img src={getImageUrl("hero/heroImage.png")} 
-//                                     alt="Hero-image" 
-//                                 />
-//             </div>
-//             <div className={styles.hero}>
-//                 <h1 className={styles.title}>{text[lang].heroGreeting}
-//                                              <span className={styles.heroName}>{text.heroName}</span>
-//                 </h1>
-//                 <p className={styles.description}>{text[lang].heroText}</p>
-//                 <a className={styles.contactBtn} 
-//                    href="#contact" >
-//                     {text[lang].heroContact}
-//                 </a>
-//             </div>
-
-           
-            
-//         </div>
+    )
+}

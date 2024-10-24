@@ -1,7 +1,6 @@
 @import "./vars.css";
 
 .App{
-    /* background: linear-gradient(135deg, #027092,#760283,#011760, #94009E); */
     background: #000;
     overflow: hidden;
 }   

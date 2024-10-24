@@ -1,18 +1,5 @@
 :root {
     /* Colours */
-    
-    /* --text-secondary : #CBCBCB;
-    --bg:#29446F;
-    --bg-secondary: #000000df;
-    --glow: #357af2;
-    --glow-secondary: #179bed;
-    --glass: rgba(0, 0, 0, 0.80);
-
-    --beginner: rgba(3, 138, 39, 0.8);
-    --intermediate:  rgba(145, 21, 212, 0.8); 
-    --advanced: rgba(214, 149, 19, 0.8);
-    */
-
     --text: #d8d8d8;
     --color0: #FFCC30;
     --color1: #0F0F0F;
@@ -20,7 +7,6 @@
     --color3: #161616;
     --color4: #1E1E1E;
     --color5: #747272;
-
 
     /* Fonts */
     --font1: "Jura";

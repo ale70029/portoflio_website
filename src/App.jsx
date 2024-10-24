@@ -1,4 +1,5 @@
 import styles from './App.module.css'
+import { LangProvider } from "./LanguageContext"
 
 import { About } from './components/About/About'
 import { Experience } from './components/Experience/Experience'
@@ -6,9 +7,6 @@ import { Hero } from './components/Hero/Hero'
 import { Navbar } from './components/Navbar/Navbar'
 import { Projects } from './components/Projects/Projects'
 import { Contact } from "./components/Contact/Contact"
-
-import { LangProvider } from "./LanguageContext"
-
 
 
 function App () {
@@ -22,12 +20,9 @@ function App () {
         <Experience />
         <Projects />
         <Contact />
-        
       </div>
     </LangProvider>
-
   )
 }
 
-
-export default App
+export default App;

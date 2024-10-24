@@ -1,6 +1,8 @@
 NAVBAR
+    -tasto traduzione
 
 HERO
+    - Animazione cornice foto
 
 ABOUT
 
@@ -10,6 +12,8 @@ PROJECTS
     -? Carosello progetti
 
 CONTACTS
+    - logo
+    - form?
 
 MOBILE
     -? Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
