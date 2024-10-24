@@ -11,7 +11,7 @@ import '../../vars.css';
 export const Experience = () => {
     const { lang, setLang } = useContext(LangContext);
     const [items, setItems] = useState(skills);
-    const [area, setArea] = useState("all");
+    const [area, setArea] = useState("");
 
   const handleFilter = (filter) => {
     
@@ -41,37 +41,50 @@ export const Experience = () => {
   return (
     <section className={styles.experience} id='experience'>
         <h1>{text[lang].navExperience}</h1>
-        <div className={styles.filters}>
-            <p onClick={() => {handleFilter("")}}  className={`${area === "" ? styles.selected : ""}`}>  {text[lang].filters.all} </p>
-            <p onClick={() => {handleFilter("Frontend")}}   className={`${area === "Frontend" ? styles.selected : ""}`}>   {text[lang].filters.FE}</p>
-            <p onClick={() => {handleFilter("Backend")}}   className={`${area === "Backend" ? styles.selected : ""}`}>   {text[lang].filters.BE}</p>
-            <p onClick={() => {handleFilter("Data")}} className={`${area === "Data" ? styles.selected : ""}`}> {text[lang].filters.Data}</p>
-            <p onClick={() => {handleFilter("IDE")}}  className={`${area === "IDE" ? styles.selected : ""}`}>  {text[lang].filters.IDE}</p>
-            <p onClick={() => {handleFilter("OS")}}   className={`${area === "OS" ? styles.selected : ""}`}>   {text[lang].filters.OS}</p>
-        </div>
-        <hr className={styles.separator}></hr>
-        <ul className={styles.levels}>
-            <li>{text[lang].beginner} ★ </li>
-            <li>{text[lang].intermediate} ★★ </li>
-            <li>{text[lang].advanced} ★★★</li>
-        </ul>
-        <div className={styles.skills}>
-            {items.map((skill,id) =>{
-                return <div key={id} 
-                className={styles.skill}>
-                    <div className={styles.skillImageContainer}>
+
+        {/* SKILLS */}
+            <div className={styles.filters}>
+                <p onClick={() => {handleFilter("")}}  className={`${area === "" ? styles.selected : ""}`}>  {text[lang].filters.all} </p>
+                <p onClick={() => {handleFilter("Frontend")}}   className={`${area === "Frontend" ? styles.selected : ""}`}>   {text[lang].filters.FE}</p>
+                <p onClick={() => {handleFilter("Backend")}}   className={`${area === "Backend" ? styles.selected : ""}`}>   {text[lang].filters.BE}</p>
+                <p onClick={() => {handleFilter("Data")}} className={`${area === "Data" ? styles.selected : ""}`}> {text[lang].filters.Data}</p>
+                <p onClick={() => {handleFilter("IDE")}}  className={`${area === "IDE" ? styles.selected : ""}`}>  {text[lang].filters.IDE}</p>
+                <p onClick={() => {handleFilter("OS")}}   className={`${area === "OS" ? styles.selected : ""}`}>   {text[lang].filters.OS}</p>
+            </div>
+            <hr className={styles.separator}></hr>
+            <ul className={styles.levels}>
+                <li>{text[lang].beginner} ★ </li>
+                <li>{text[lang].intermediate} ★★ </li>
+                <li>{text[lang].advanced} ★★★</li>
+            </ul>
+            <div className={styles.skills}>
+                {items.map((skill,id) =>{
+                    return <div key={id} className={styles.skill}>
                         <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                        <h1>{skill.title}</h1>
+                        <p>{getLevel(skill.level)}</p>
                     </div>
-                    <h1>{skill.title}</h1>
-                    <p>{getLevel(skill.level)}</p>
-                </div>
-            })}
+                })}
+            </div>
+            <hr className={styles.separator}></hr>
 
-        </div>
-        <hr className={styles.separator}></hr>
-        <div className={styles.history}>
+        {/* HISTORY */}
+            <div className={styles.history}>
+                {history.map((item,id) => {
+                    return <li key={id} className={styles.item}>
+                                <img src={getImageUrl(item.imageSrc)} alt={item.organisation} />
+        
+                                <h1> {item.role[lang]}</h1>
+                                <h2> {item.organisation}</h2>
+                                <h3>{item.startDate + " - " + (item.endDate === "" ? text[lang].onGoing : item.endDate)}</h3>
 
-        </div>
+                                <ul>{item.experiences.map((experience,id) => {
+                                    return <li key={id}>{experience}</li>
+                                    })}
+                                </ul>
+                            </li>
+                })}
+            </div>
     </section>
   )
 }
@@ -121,18 +134,18 @@ export const Experience = () => {
 
 //             <ul className={styles.history}>
 //                 {
-//                     history.map((historyItem,id) => {
-//                         return <li key={id} className={styles.historyItem}>
-//                             <img src={getImageUrl(historyItem.imageSrc)} alt={historyItem.organisation} />
-//                             <div className={styles.historyItemDetails}>
-//                                 <h3> {historyItem.role[lang]}</h3>
-//                                 <h2> {historyItem.organisation}</h2>
-//                                 <p>{historyItem.startDate + 
+//                     history.map((item,id) => {
+//                         return <li key={id} className={styles.item}>
+//                             <img src={getImageUrl(item.imageSrc)} alt={item.organisation} />
+//                             <div className={styles.itemDetails}>
+//                                 <h3> {item.role[lang]}</h3>
+//                                 <h2> {item.organisation}</h2>
+//                                 <p>{item.startDate + 
 //                                     " - " + 
-//                                     (historyItem.endDate === "" ? text[lang].onGoing : historyItem.endDate)}
+//                                     (item.endDate === "" ? text[lang].onGoing : item.endDate)}
 //                                 </p>
 
-//                                 <ul>{historyItem.experiences.map((experience,id) => {
+//                                 <ul>{item.experiences.map((experience,id) => {
 //                                     return <li key={id}>{experience}</li>
 //                                     })}
 //                                 </ul>

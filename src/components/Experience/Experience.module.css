@@ -21,10 +21,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    gap: 20px;
+    gap: 30px;
 
     color: var(--color5);
-    font-size: 48px;
+    font-size: 40px;
     font-weight: lighter;
   
     cursor: pointer;
@@ -99,7 +99,52 @@
 }
 
 .history{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,450px );
 
+    margin-block: 50px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+
+    background-color: var(--color4);
+
+    img{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        color: var(--text);
+        font-size: 26px;
+        align-self: center;
+        text-align: center;
+        margin: 0;
+    }
+    h2{
+        
+        color: var(--color0);
+        font-size: 24px;
+    }
+    h3{
+        color: var(--text);
+        font-size: 18px;
+
+    }
+
+    ul{
+        margin-top: 30px;
+        color: var(--text);
+    }
 
 }
 
