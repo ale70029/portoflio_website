@@ -54,6 +54,7 @@
         flex-direction: column;
         gap: 30px;
         margin-top: 20px;
+        height: auto;
 
         ul{
             flex-direction: column;
