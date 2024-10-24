@@ -3,10 +3,10 @@
 /* DESKTOP */
 .navbar{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-inline:62px;
+    margin-block: 20px;
     text-transform: uppercase;
 }
 
@@ -19,6 +19,7 @@
 .anchors{
     display: flex;
     flex-direction: row;
+
     font-weight: lighter;
 
     list-style: none;

@@ -12,7 +12,6 @@ export const Navbar = () => {
   return (
 
     <section className={styles.navbar}>
-        <div className={styles.title}>PORTFOLIO</div>
         <ul className={styles.anchors}>
             <li> <a href="#about">{text[lang].navAbout}</a> </li>
             <li> <a href="#experience">{text[lang].navExperience}</a> </li>
