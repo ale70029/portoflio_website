@@ -44,6 +44,20 @@
         font-weight: bold;
         margin-right: 30px;
     }
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+        color: var(--color0);
+        font-size: 24px;
+
+        input{
+            background-color: var(--color5);
+        }
+
+    }
+
 }
 
 /* MOBILE */

@@ -3,12 +3,14 @@ import {getImageUrl} from "../../utils"
 import {text} from "../../data/translation"
 import styles from "./Contact.module.css"
 import LangContext from "../../LanguageContext";
+import ContactForm from './ContactForm';
 
 
 export const Contact = () => {
     const { lang, setLang } = useContext(LangContext);
   return (
     <footer className={styles.contact} id='contact'>
+        <ContactForm />
             <ul>
                 <a href="mailto:alessandro.ciccarone1994@gmail.com">
                     <li>

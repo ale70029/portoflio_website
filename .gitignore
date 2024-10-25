@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 
-# Old version
+# env
+.components/Contact/Emailjs.env
