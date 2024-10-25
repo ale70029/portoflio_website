@@ -25,4 +25,4 @@ dist-ssr
 
 
 # env
-src\components\Contact\Emailjs.env
+.src/components/Contact/Emailjs.env
