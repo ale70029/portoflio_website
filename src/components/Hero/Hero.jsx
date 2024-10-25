@@ -14,7 +14,7 @@ export const Hero = () => {
                 <p>{text[lang].heroText}</p>
                 <div className={styles.buttons}>
                     <a href="#contact"> {text[lang].heroContact}</a>
-                    <a href="https://github.com/ale70029/portoflio_website/blob/master/src/data/CV%20Alessandro%20Ciccarone.pdf">
+                    <a href="https://raw.githubusercontent.com/ale70029/portoflio_website/master/src/data/CV%20Alessandro%20Ciccarone.pdf">
                         {text[lang].curriculum}
                     </a>
                 </div>
