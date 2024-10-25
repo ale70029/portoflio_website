@@ -10,7 +10,7 @@ export const Contact = () => {
     const { lang, setLang } = useContext(LangContext);
   return (
     <footer className={styles.contact} id='contact'>
-        <ContactForm />
+        
             <ul>
                 <a href="mailto:alessandro.ciccarone1994@gmail.com">
                     <li>
