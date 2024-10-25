@@ -2,22 +2,6 @@
     {
         "title":
             {
-                "it": "Sviluppatore Frontend",
-                "en": "Frontend Developer",
-                "es": "Desarrollador Frontend"
-            },
-        "description":
-            {
-                "it": "Posso sviluppare pagine web come questa, usando HTML, CSS, JavaScript e React.",
-                "en": "I can develop web pages like this, using HTML, CSS, JavaScript and React. ",
-                "es": "Puedo desarrollar páginas web como esta utilizando HTML, CSS, JavaScript y React."
-            },
-        "icon": "about/frontend.png"
-    },
-
-    {
-        "title":
-            {
                 "it": "Sviluppatore Backend",
                 "en": "Backend Developer",
                 "es": "Desarrollador Backend"
@@ -29,6 +13,22 @@
                 "es": "Puedo desarrollar aplicaciones utilizando Java, Python y C#."
             },
         "icon": "about/backend.png"
+    },
+    
+    {
+        "title":
+            {
+                "it": "Sviluppatore Frontend",
+                "en": "Frontend Developer",
+                "es": "Desarrollador Frontend"
+            },
+        "description":
+            {
+                "it": "Posso sviluppare pagine web come questa, usando HTML, CSS, JavaScript e React.",
+                "en": "I can develop web pages like this, using HTML, CSS, JavaScript and React. ",
+                "es": "Puedo desarrollar páginas web como esta utilizando HTML, CSS, JavaScript y React."
+            },
+        "icon": "about/frontend.png"
     },
 
     {
