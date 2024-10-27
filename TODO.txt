@@ -17,5 +17,6 @@ CONTACTS
 
 MOBILE
     -? Tasto hamburger per menu, sezione laterale al posto di piccolo quadrato
+        - selezione lingua
 
 MISC
