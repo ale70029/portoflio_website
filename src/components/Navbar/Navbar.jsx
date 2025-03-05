@@ -111,7 +111,7 @@ export const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <img src={getImageUrl(`nav/${lang}.png`)} alt="language flag" />
+                <img src={`/assets/nav/${lang}.png`} alt="language flag" />
                 {text[lang].language}
               </a>
               <ul className="dropdown-menu">
