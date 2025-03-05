@@ -1,43 +1,68 @@
 @import "../../vars.css";
+.navLink:hover{
+    
+    color: var(--color0) !important;
+}
 
-.navbar{
+.language{
+  
+        list-style-type: none;
+    color: var(--color0) !important;
+  
+    img{
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+}
+.mobileNavbar{
+    color: var(--color0);
+    background: var(--color1);
+}
+
+
+
+/* .active{
+    color:red !important;
+} */
+/* .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-inline:62px;
     margin-block: 20px;
     text-transform: uppercase;
-}
+} */
 
-.title{
+/* .title{
  font-size: 48px;
  font-weight: lighter;
  color: var(--text);
-}
+} */
 
-.anchors{
-    display: flex;
+/* .anchors{ */
+    /* display: flex;
     flex-direction: row;
 
-    font-weight: lighter;
+    font-weight: lighter; */
 
-    list-style: none;
+    /* list-style: none;
     font-size: 28px;
-    gap: 63px;
+    gap: 63px; */
 
-    a{
+    /* a{
         text-decoration: none;
         color: var(--text);
-    }
-
+    } */
+/* 
     a:hover{
         color: var(--color0);
     }
-}
+} */
 
 /* MOBILE */
 
-@media screen and (max-width: 830px){
+/* @media screen and (max-width: 830px){
 
     .navbar{
         justify-content: center;
@@ -52,4 +77,4 @@
             font-weight: bold;
         }
     }
-}
+} */

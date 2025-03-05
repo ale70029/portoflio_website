@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import styles from './App.module.css'
 import { LangProvider } from "./LanguageContext"
 
