@@ -39,6 +39,29 @@ export const Experience = () => {
     <section className={styles.experience} id='experience'>
         <h1>{text[lang].navExperience}</h1>
 
+        {/* HISTORY */}
+        <div className={styles.history}>
+                {history.map((item,id) => {
+                    return <li key={id} className={styles.item}>
+                              <img src={getImageUrl(item.imageSrc)} alt={item.organisation} />
+                              <h1> {item.role[lang]}</h1>
+                              <h2> {item.organisation}</h2>
+                              <h3>{item.startDate + " - " + (item.endDate === "" ? text[lang].onGoing : item.endDate)}</h3>   
+                              <p>{item.skills.map((skill,id) => {
+                                return <span key={id} class="badge badge-primary">{skill}</span>
+                                })}
+                              </p>                    
+                              <ul>{item.experiences[lang]?.map((experience,id) => {
+                                console.log(lang);
+                                return <li key={id}>{experience}</li>
+                                })}
+                              </ul>
+                            </li>
+                })}
+            </div>
+
+          <hr className={styles.separator}></hr>
+
         {/* SKILLS */}
             <div className={styles.filters}>
                 <p onClick={() => {handleFilter("")}}  className={`${area === "" ? styles.selected : ""}`}>  {text[lang].filters.all} </p>
@@ -63,30 +86,9 @@ export const Experience = () => {
                     </div>
                 })}
             </div>
-            <hr className={styles.separator}></hr>
+          
 
-        {/* HISTORY */}
-            <div className={styles.history}>
-                {history.map((item,id) => {
-                    return <li key={id} className={styles.item}>
-                              <img src={getImageUrl(item.imageSrc)} alt={item.organisation} />
-                              <h1> {item.role[lang]}</h1>
-                              <h2> {item.organisation}</h2>
-                              <h3>{item.startDate + " - " + (item.endDate === "" ? text[lang].onGoing : item.endDate)}</h3>   
-                              <p>{item.skills.map((skill,id) => {
-                                return <span key={id} class="badge badge-primary">{skill}</span>
-                                })}
-                              </p>                    
-                              <ul>{item.experiences[lang]?.map((experience,id) => {
-                                console.log(lang);
-                                // console.log(item.experiences);
-                               
-                                return <li key={id}>{experience}</li>
-                                })}
-                              </ul>
-                            </li>
-                })}
-            </div>
+        
     </section>
   )
 }
