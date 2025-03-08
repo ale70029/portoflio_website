@@ -1,8 +1,7 @@
 export const text = {
     it:{
-        heroText: `Ho una grande passione per tutto quello che riguarda la programmazione e sto cercando lavoro come sviluppatore!
-                   Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma e studio Informatica 
-                   in modalità teledidattica presso l'Università "La Sapienza", in modo da poter conciliare lo studio con il lavoro.`,
+        heroText: `Ho una grande passione per la tecnologia, in particolare per la programmazione, per questo negli ultimi anni ho investito molto sulla mia formazione per poter entrare nel mondo dello sviluppo software. Desidero avere l'opportunita di applicare le competenze acquisite, continuando al contempo a crescere professionalmente per consolidare ed ampliare le mie capacità. Mi reputo una persona molto disponibile, puntuale ed affidabile.
+                   Ho ${new Date().getFullYear() - 1994} anni, vivo a Roma (zona Monteverde) e sono automunito.`,
         heroContact: "Mettiamoci in contatto!",
         curriculum : "Scarica il mio Curriculum",
 
@@ -38,9 +37,8 @@ export const text = {
     },
 
     en:{
-        heroText:  `I have a great passion for everything related to programming and I'm looking for a job as a developer!
-                    I am ${new Date().getFullYear() - 1994} years old, I live in Rome and I'm studying Computer Science
-                    via distance learning at the University of "La Sapienza", allowing me to balance work and studies.`,
+        heroText:  `I have a great passion for technology, particularly for programming, which is why in recent years I have invested a lot in my training to enter the world of software development. I want to have the opportunity to apply the skills I have acquired, while continuing to grow professionally to consolidate and expand my abilities. I consider myself a very available, punctual, and reliable person.
+                    I am ${new Date().getFullYear() - 1994} years old, live in Rome (Monteverde area), and I have my own car.`,
         heroContact: "Get in touch!",
         curriculum : "Download my CV",
     
@@ -74,9 +72,8 @@ export const text = {
     },
 
     es: {
-        heroText: `Tengo una gran pasión por todo lo relacionado con la programación y estoy buscando trabajo como desarrollador!
-                    Tengo ${new Date().getFullYear() - 1994} años, vivo en Roma y estudio Informática en modalidad a distancia en
-                    la Universidad "La Sapienza", lo que me permite compaginar el estudio con el trabajo.`,
+        heroText: `Tengo una gran pasión por la tecnología, especialmente por la programación, por lo que en los últimos años he invertido mucho en mi formación para poder ingresar al mundo del desarrollo de software. Deseo tener la oportunidad de aplicar las habilidades adquiridas, mientras continúo creciendo profesionalmente para consolidar y ampliar mis capacidades. Me considero una persona muy disponible, puntual y confiable.
+        Tengo ${new Date().getFullYear() - 1994}, vivo en Roma (zona Monteverde) y tengo un coche.`,
         heroContact: "Pongámonos en contacto!",
         curriculum : "Descarga mi CV",
     
