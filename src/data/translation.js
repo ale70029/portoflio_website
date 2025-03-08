@@ -72,7 +72,10 @@ export const text = {
     },
 
     es: {
-        heroText: `Tengo una gran pasión por la tecnología, especialmente por la programación, por lo que en los últimos años he invertido mucho en mi formación para poder ingresar al mundo del desarrollo de software. Deseo tener la oportunidad de aplicar las habilidades adquiridas, mientras continúo creciendo profesionalmente para consolidar y ampliar mis capacidades. Me considero una persona muy disponible, puntual y confiable.
+        heroText: `Tengo una gran pasión por la tecnología, especialmente por la programación, 
+        por lo que en los últimos años he invertido mucho en mi formación para poder ingresar al mundo del desarrollo de software. 
+        Deseo tener la oportunidad de aplicar las habilidades adquiridas, mientras continúo creciendo profesionalmente para consolidar
+        y ampliar mis capacidades. Me considero una persona muy disponible, puntual y confiable.
         Tengo ${new Date().getFullYear() - 1994}, vivo en Roma (zona Monteverde) y tengo un coche.`,
         heroContact: "Pongámonos en contacto!",
         curriculum : "Descarga mi CV",
