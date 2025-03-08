@@ -9,7 +9,9 @@
 
     h1{ /* title */
         align-self: flex-start;
-        margin-top: 15px;
+       margin:20px;
+       margin-bottom: 0px;
+        
 
         font-size: 70px;
         font-weight: bold;
