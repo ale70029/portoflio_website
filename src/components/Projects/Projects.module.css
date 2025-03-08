@@ -39,8 +39,8 @@
 
     img{
         width: 350px;
-        height: 220px;
-        object-fit: cover;
+        height: 200px;
+        object-fit:contain;
         border-radius: 5px;
     }
 
