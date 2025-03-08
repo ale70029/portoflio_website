@@ -56,6 +56,20 @@
     },
 
     {
+        "title": "ASP.NET",
+        "imageSrc": "skills/aspNet.png",
+        "level" : "intermediate",
+        "area" : "Backend"
+    },
+
+    {
+        "title": "jQuery",
+        "imageSrc": "skills/jQuery.png",
+        "level" : "intermediate",
+        "area" : "Frontend"
+    },
+
+    {
         "title": "PowerBI",
         "imageSrc": "skills/powerBI.png",
         "level" : "advanced",
