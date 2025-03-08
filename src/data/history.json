@@ -16,7 +16,10 @@
         "JavaScript",
         "React",
         "C#",
+        "ASP.NET MVC",
+        "jQuery",
         "SQL / T-SQL",
+        "SQL Server",
         "Life Skills"
        ],
        "experiences":{
@@ -104,7 +107,11 @@
         "MVC Pattern",
         "ASP.NET MVC",
         "Entity Framework",
-        "SQL Server"
+        "SQL Server",
+        "React",
+        "JavaScript",
+        "CSS",
+        "HTML"
         ],
         "experiences": {
           "it":["ASP.NET MVC Complete Guide using .NET Core [.NET8 Updated]",
