@@ -23,6 +23,27 @@
     {
       "title": 
         {
+          "it":"Bloggie - ASP.NET MVC",
+          "en":"Bloggie - ASP.NET MVC",
+          "es":"Bloggie - ASP.NET MVC"
+        },
+      "description":
+        {
+          "it":"Ho creato questo Blog con la tecnologia ASP.NET MVC seguendo un tutorial su Udemy.",
+          "en":"I created this Blog with ASP.NET MVC following an online course on Udemy.",
+          "es":"He desarrolado este Blog con ASP.NET MVC siguendo un curso online de Udemy."
+        },
+      "imageSrc": "projects/bloggie.png",
+      "skills": ["ASP.NET MVC", "Razor", "C#","HTML","Bootstrap"],
+      "links": {
+         
+         "GitHub": "https://github.com/ale70029/Bloggie"
+      }
+     
+    },
+    {
+      "title": 
+        {
           "it":"JBubbleBobble",
           "en":"JBubbleBobble",
           "es":"JBubbleBobble"
@@ -55,7 +76,8 @@
       "imageSrc": "projects/PBReports.png",
       "skills": ["PowerBI"],
       "links": {
-         "GitHub": "https://github.com/ale70029/Epicode-Projects"
+         "GitHub": "https://github.com/ale70029/Epicode-Projects",
+         "Certificate" : "https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6516d20d1dc8f4e647e5c5b1.svg"
       }
     }
   ]
