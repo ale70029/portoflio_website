@@ -10,7 +10,8 @@ export const Hero = () => {
     return(
         <section className={styles.hero} id="home">
             <div className={styles.text}>
-                <h1>Alessandro Ciccarone</h1>
+                <h1 className={styles.leftText}>Alessandro</h1>
+                <h1 className={styles.rightText}>Ciccarone</h1>
                 <p>{text[lang].heroText}</p>
                 <div className={styles.buttons}>
                     <a href="#contact"> {text[lang].heroContact}</a>
