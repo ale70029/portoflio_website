@@ -97,6 +97,9 @@
         }
     }
 }
+.item:hover {
+    outline: 3px solid var(--color0);
+  }
 
 /* MOBILE */
 

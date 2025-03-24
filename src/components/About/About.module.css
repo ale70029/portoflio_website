@@ -21,6 +21,7 @@
 
     background-color: var(--color2);
     padding: 30px;
+    
 
 
     img{
@@ -44,7 +45,12 @@
         font-size: 22px;
         font-weight: lighter;
     }
+    
 }
+
+.role:hover {
+    outline: 3px solid var(--color0);
+  }
 
 /* MOBILE */
 
